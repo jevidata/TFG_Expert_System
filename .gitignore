@@ -1,0 +1,19 @@
+# Entorno virtual Python
+tfgvenv/
+venv/
+
+# Archivos temporales Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Base de datos local (MongoDB)
+data/db/
+
+# Datos de ejecución de Node-RED
+logic/node-red-data/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+*.log

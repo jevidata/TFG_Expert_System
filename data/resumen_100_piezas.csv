@@ -1,0 +1,11 @@
+categoria,num_piezas,precio_medio,horas_medio
+Climatización,5,118.51,0.74
+Electricidad y sensores,12,219.23,0.88
+Encendido e inyección,12,252.77,0.81
+Escape,8,243.15,0.78
+Frenos,12,222.87,1.18
+Mantenimiento básico,5,115.7,0.5
+Motor,15,263.11,1.21
+Refrigeración,10,195.05,0.99
+Suspensión y dirección,12,208.48,0.93
+Transmisión y embrague,9,327.5,1.1

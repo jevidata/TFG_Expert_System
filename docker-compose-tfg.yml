@@ -1,0 +1,21 @@
+
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: tfg_mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./data/db:/data/db
+    restart: always
+
+  nodered:
+    image: nodered/node-red:latest
+    container_name: tfg_nodered
+    ports:
+      - "1880:1880"
+    volumes:
+      - ./logic/node-red-data:/data
+    depends_on:
+      - mongodb
+    restart: always

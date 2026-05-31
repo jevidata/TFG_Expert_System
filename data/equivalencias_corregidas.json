@@ -1,0 +1,1002 @@
+[
+    {
+        "codigo_averia": 101,
+        "id_pieza": 1,
+        "nombre_pieza": "Bomba de agua",
+        "categoria": "Motor",
+        "precio_base_eur": 28.08,
+        "horas_mano_obra": 0.9,
+        "proveedor_preferente": "Mister-Auto",
+        "_id": "6a198129e55f0330fcb50968"
+    },
+    {
+        "codigo_averia": 102,
+        "id_pieza": 2,
+        "nombre_pieza": "Termostato",
+        "categoria": "Motor",
+        "precio_base_eur": 150.91,
+        "horas_mano_obra": 1.4,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb50969"
+    },
+    {
+        "codigo_averia": 103,
+        "id_pieza": 3,
+        "nombre_pieza": "Correa de distribución",
+        "categoria": "Motor",
+        "precio_base_eur": 43.76,
+        "horas_mano_obra": 1.2,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb5096a"
+    },
+    {
+        "codigo_averia": 104,
+        "id_pieza": 4,
+        "nombre_pieza": "Tensor de correa",
+        "categoria": "Motor",
+        "precio_base_eur": 180.28,
+        "horas_mano_obra": 0.9,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb5096b"
+    },
+    {
+        "codigo_averia": 105,
+        "id_pieza": 5,
+        "nombre_pieza": "Junta de culata",
+        "categoria": "Motor",
+        "precio_base_eur": 280.95,
+        "horas_mano_obra": 1.3,
+        "proveedor_preferente": "Mister-Auto",
+        "_id": "6a198129e55f0330fcb5096c"
+    },
+    {
+        "codigo_averia": 106,
+        "id_pieza": 6,
+        "nombre_pieza": "Bomba de aceite",
+        "categoria": "Motor",
+        "precio_base_eur": 311.42,
+        "horas_mano_obra": 1.3,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb5096d"
+    },
+    {
+        "codigo_averia": 107,
+        "id_pieza": 7,
+        "nombre_pieza": "Sensor de árbol de levas",
+        "categoria": "Motor",
+        "precio_base_eur": 268.27,
+        "horas_mano_obra": 1.3,
+        "proveedor_preferente": "Mister-Auto",
+        "_id": "6a198129e55f0330fcb5096e"
+    },
+    {
+        "codigo_averia": 108,
+        "id_pieza": 8,
+        "nombre_pieza": "Sensor de cigüeñal",
+        "categoria": "Motor",
+        "precio_base_eur": 402.82,
+        "horas_mano_obra": 1.5,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb5096f"
+    },
+    {
+        "codigo_averia": 109,
+        "id_pieza": 9,
+        "nombre_pieza": "Soporte motor",
+        "categoria": "Motor",
+        "precio_base_eur": 164.75,
+        "horas_mano_obra": 1.0,
+        "proveedor_preferente": "RecambiosCoches",
+        "_id": "6a198129e55f0330fcb50970"
+    },
+    {
+        "codigo_averia": 110,
+        "id_pieza": 10,
+        "nombre_pieza": "Tapa de válvulas",
+        "categoria": "Motor",
+        "precio_base_eur": 387.62,
+        "horas_mano_obra": 1.5,
+        "proveedor_preferente": "RecambiosCoches",
+        "_id": "6a198129e55f0330fcb50971"
+    },
+    {
+        "codigo_averia": 111,
+        "id_pieza": 11,
+        "nombre_pieza": "Radiador de aceite",
+        "categoria": "Motor",
+        "precio_base_eur": 327.63,
+        "horas_mano_obra": 1.2,
+        "proveedor_preferente": "Mister-Auto",
+        "_id": "6a198129e55f0330fcb50972"
+    },
+    {
+        "codigo_averia": 112,
+        "id_pieza": 12,
+        "nombre_pieza": "Turbocompresor",
+        "categoria": "Motor",
+        "precio_base_eur": 615.88,
+        "horas_mano_obra": 1.2,
+        "proveedor_preferente": "Mister-Auto",
+        "_id": "6a198129e55f0330fcb50973"
+    },
+    {
+        "codigo_averia": 113,
+        "id_pieza": 13,
+        "nombre_pieza": "Colector de admisión",
+        "categoria": "Motor",
+        "precio_base_eur": 99.29,
+        "horas_mano_obra": 1.4,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb50974"
+    },
+    {
+        "codigo_averia": 114,
+        "id_pieza": 14,
+        "nombre_pieza": "Cuerpo de mariposa",
+        "categoria": "Motor",
+        "precio_base_eur": 390.85,
+        "horas_mano_obra": 1.2,
+        "proveedor_preferente": "RecambiosCoches",
+        "_id": "6a198129e55f0330fcb50975"
+    },
+    {
+        "codigo_averia": 115,
+        "id_pieza": 15,
+        "nombre_pieza": "Inyector",
+        "categoria": "Motor",
+        "precio_base_eur": 294.18,
+        "horas_mano_obra": 0.9,
+        "proveedor_preferente": "Mister-Auto",
+        "_id": "6a198129e55f0330fcb50976"
+    },
+    {
+        "codigo_averia": 116,
+        "id_pieza": 16,
+        "nombre_pieza": "Bujía",
+        "categoria": "Encendido e inyección",
+        "precio_base_eur": 238.73,
+        "horas_mano_obra": 0.8,
+        "proveedor_preferente": "RecambiosCoches",
+        "_id": "6a198129e55f0330fcb50977"
+    },
+    {
+        "codigo_averia": 117,
+        "id_pieza": 17,
+        "nombre_pieza": "Bobina de encendido",
+        "categoria": "Encendido e inyección",
+        "precio_base_eur": 40.22,
+        "horas_mano_obra": 1.1,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb50978"
+    },
+    {
+        "codigo_averia": 118,
+        "id_pieza": 18,
+        "nombre_pieza": "Filtro de combustible",
+        "categoria": "Encendido e inyección",
+        "precio_base_eur": 352.26,
+        "horas_mano_obra": 0.8,
+        "proveedor_preferente": "RecambiosCoches",
+        "_id": "6a198129e55f0330fcb50979"
+    },
+    {
+        "codigo_averia": 119,
+        "id_pieza": 19,
+        "nombre_pieza": "Regulador de presión de combustible",
+        "categoria": "Encendido e inyección",
+        "precio_base_eur": 304.75,
+        "horas_mano_obra": 0.7,
+        "proveedor_preferente": "RecambiosCoches",
+        "_id": "6a198129e55f0330fcb5097a"
+    },
+    {
+        "codigo_averia": 120,
+        "id_pieza": 20,
+        "nombre_pieza": "Sensor de presión de rail",
+        "categoria": "Encendido e inyección",
+        "precio_base_eur": 284.81,
+        "horas_mano_obra": 1.0,
+        "proveedor_preferente": "RecambiosCoches",
+        "_id": "6a198129e55f0330fcb5097b"
+    },
+    {
+        "codigo_averia": 201,
+        "id_pieza": 21,
+        "nombre_pieza": "Sensor MAF",
+        "categoria": "Encendido e inyección",
+        "precio_base_eur": 80.98,
+        "horas_mano_obra": 0.7,
+        "proveedor_preferente": "Mister-Auto",
+        "_id": "6a198129e55f0330fcb5097c"
+    },
+    {
+        "codigo_averia": 202,
+        "id_pieza": 22,
+        "nombre_pieza": "Sensor MAP",
+        "categoria": "Encendido e inyección",
+        "precio_base_eur": 220.99,
+        "horas_mano_obra": 0.7,
+        "proveedor_preferente": "Mister-Auto",
+        "_id": "6a198129e55f0330fcb5097d"
+    },
+    {
+        "codigo_averia": 203,
+        "id_pieza": 23,
+        "nombre_pieza": "Válvula EGR",
+        "categoria": "Encendido e inyección",
+        "precio_base_eur": 351.55,
+        "horas_mano_obra": 0.8,
+        "proveedor_preferente": "Mister-Auto",
+        "_id": "6a198129e55f0330fcb5097e"
+    },
+    {
+        "codigo_averia": 204,
+        "id_pieza": 24,
+        "nombre_pieza": "Relé de bomba de combustible",
+        "categoria": "Encendido e inyección",
+        "precio_base_eur": 67.05,
+        "horas_mano_obra": 0.8,
+        "proveedor_preferente": "AUTODOC",
+        "_id": "6a198129e55f0330fcb5097f"
+    },
+    {
+        "codigo_averia": 205,
+        "id_pieza": 25,
+        "nombre_pieza": "Bomba de combustible",
+        "categoria": "Encendido e inyección",
+        "precio_base_eur": 344.5,
+        "horas_mano_obra": 0.8,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb50980"
+    },
+    {
+        "codigo_averia": 206,
+        "id_pieza": 26,
+        "nombre_pieza": "Válvula PCV",
+        "categoria": "Encendido e inyección",
+        "precio_base_eur": 337.79,
+        "horas_mano_obra": 0.8,
+        "proveedor_preferente": "AUTODOC",
+        "_id": "6a198129e55f0330fcb50981"
+    },
+    {
+        "codigo_averia": 207,
+        "id_pieza": 27,
+        "nombre_pieza": "Sonda lambda delantera",
+        "categoria": "Encendido e inyección",
+        "precio_base_eur": 409.64,
+        "horas_mano_obra": 0.7,
+        "proveedor_preferente": "RecambiosCoches",
+        "_id": "6a198129e55f0330fcb50982"
+    },
+    {
+        "codigo_averia": 208,
+        "id_pieza": 28,
+        "nombre_pieza": "Catalizador",
+        "categoria": "Escape",
+        "precio_base_eur": 249.17,
+        "horas_mano_obra": 1.0,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb50983"
+    },
+    {
+        "codigo_averia": 209,
+        "id_pieza": 29,
+        "nombre_pieza": "Sonda lambda trasera",
+        "categoria": "Escape",
+        "precio_base_eur": 41.54,
+        "horas_mano_obra": 1.0,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb50984"
+    },
+    {
+        "codigo_averia": 210,
+        "id_pieza": 30,
+        "nombre_pieza": "Silencioso trasero",
+        "categoria": "Escape",
+        "precio_base_eur": 227.72,
+        "horas_mano_obra": 0.6,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb50985"
+    },
+    {
+        "codigo_averia": 211,
+        "id_pieza": 31,
+        "nombre_pieza": "Tramo intermedio de escape",
+        "categoria": "Escape",
+        "precio_base_eur": 357.6,
+        "horas_mano_obra": 0.7,
+        "proveedor_preferente": "AUTODOC",
+        "_id": "6a198129e55f0330fcb50986"
+    },
+    {
+        "codigo_averia": 212,
+        "id_pieza": 32,
+        "nombre_pieza": "Junta de escape",
+        "categoria": "Escape",
+        "precio_base_eur": 40.13,
+        "horas_mano_obra": 0.9,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb50987"
+    },
+    {
+        "codigo_averia": 213,
+        "id_pieza": 33,
+        "nombre_pieza": "Sensor de temperatura de gases",
+        "categoria": "Escape",
+        "precio_base_eur": 307.16,
+        "horas_mano_obra": 0.7,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb50988"
+    },
+    {
+        "codigo_averia": 214,
+        "id_pieza": 34,
+        "nombre_pieza": "Abrazadera de escape",
+        "categoria": "Escape",
+        "precio_base_eur": 406.54,
+        "horas_mano_obra": 0.7,
+        "proveedor_preferente": "AUTODOC",
+        "_id": "6a198129e55f0330fcb50989"
+    },
+    {
+        "codigo_averia": 215,
+        "id_pieza": 35,
+        "nombre_pieza": "Resonador",
+        "categoria": "Escape",
+        "precio_base_eur": 315.31,
+        "horas_mano_obra": 0.6,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb5098a"
+    },
+    {
+        "codigo_averia": 216,
+        "id_pieza": 36,
+        "nombre_pieza": "Radiador",
+        "categoria": "Refrigeración",
+        "precio_base_eur": 275.18,
+        "horas_mano_obra": 1.0,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb5098b"
+    },
+    {
+        "codigo_averia": 217,
+        "id_pieza": 37,
+        "nombre_pieza": "Ventilador de radiador",
+        "categoria": "Refrigeración",
+        "precio_base_eur": 329.5,
+        "horas_mano_obra": 1.2,
+        "proveedor_preferente": "Mister-Auto",
+        "_id": "6a198129e55f0330fcb5098c"
+    },
+    {
+        "codigo_averia": 218,
+        "id_pieza": 38,
+        "nombre_pieza": "Deposito de expansión",
+        "categoria": "Refrigeración",
+        "precio_base_eur": 281.5,
+        "horas_mano_obra": 1.3,
+        "proveedor_preferente": "RecambiosCoches",
+        "_id": "6a198129e55f0330fcb5098d"
+    },
+    {
+        "codigo_averia": 219,
+        "id_pieza": 39,
+        "nombre_pieza": "Manguito de refrigeración",
+        "categoria": "Refrigeración",
+        "precio_base_eur": 364.83,
+        "horas_mano_obra": 0.8,
+        "proveedor_preferente": "AUTODOC",
+        "_id": "6a198129e55f0330fcb5098e"
+    },
+    {
+        "codigo_averia": 220,
+        "id_pieza": 40,
+        "nombre_pieza": "Sensor de temperatura refrigerante",
+        "categoria": "Refrigeración",
+        "precio_base_eur": 58.74,
+        "horas_mano_obra": 0.9,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb5098f"
+    },
+    {
+        "codigo_averia": 301,
+        "id_pieza": 41,
+        "nombre_pieza": "Electroventilador",
+        "categoria": "Refrigeración",
+        "precio_base_eur": 101.65,
+        "horas_mano_obra": 0.8,
+        "proveedor_preferente": "RecambiosCoches",
+        "_id": "6a198129e55f0330fcb50990"
+    },
+    {
+        "codigo_averia": 302,
+        "id_pieza": 42,
+        "nombre_pieza": "Tapa de radiador",
+        "categoria": "Refrigeración",
+        "precio_base_eur": 43.78,
+        "horas_mano_obra": 1.3,
+        "proveedor_preferente": "RecambiosCoches",
+        "_id": "6a198129e55f0330fcb50991"
+    },
+    {
+        "codigo_averia": 303,
+        "id_pieza": 43,
+        "nombre_pieza": "Bomba de refrigerante",
+        "categoria": "Refrigeración",
+        "precio_base_eur": 10.6,
+        "horas_mano_obra": 0.8,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb50992"
+    },
+    {
+        "codigo_averia": 304,
+        "id_pieza": 44,
+        "nombre_pieza": "Termointerruptor",
+        "categoria": "Refrigeración",
+        "precio_base_eur": 412.71,
+        "horas_mano_obra": 0.8,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb50993"
+    },
+    {
+        "codigo_averia": 305,
+        "id_pieza": 45,
+        "nombre_pieza": "Vaso de expansión",
+        "categoria": "Refrigeración",
+        "precio_base_eur": 71.98,
+        "horas_mano_obra": 1.0,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb50994"
+    },
+    {
+        "codigo_averia": 306,
+        "id_pieza": 46,
+        "nombre_pieza": "Pastillas de freno delanteras",
+        "categoria": "Frenos",
+        "precio_base_eur": 71.24,
+        "horas_mano_obra": 1.3,
+        "proveedor_preferente": "RecambiosCoches",
+        "_id": "6a198129e55f0330fcb50995"
+    },
+    {
+        "codigo_averia": 307,
+        "id_pieza": 47,
+        "nombre_pieza": "Pastillas de freno traseras",
+        "categoria": "Frenos",
+        "precio_base_eur": 402.7,
+        "horas_mano_obra": 0.8,
+        "proveedor_preferente": "Mister-Auto",
+        "_id": "6a198129e55f0330fcb50996"
+    },
+    {
+        "codigo_averia": 308,
+        "id_pieza": 48,
+        "nombre_pieza": "Disco de freno delantero",
+        "categoria": "Frenos",
+        "precio_base_eur": 356.3,
+        "horas_mano_obra": 1.1,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb50997"
+    },
+    {
+        "codigo_averia": 309,
+        "id_pieza": 49,
+        "nombre_pieza": "Disco de freno trasero",
+        "categoria": "Frenos",
+        "precio_base_eur": 57.6,
+        "horas_mano_obra": 1.0,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb50998"
+    },
+    {
+        "codigo_averia": 310,
+        "id_pieza": 50,
+        "nombre_pieza": "Pinza de freno",
+        "categoria": "Frenos",
+        "precio_base_eur": 54.66,
+        "horas_mano_obra": 1.4,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb50999"
+    },
+    {
+        "codigo_averia": 311,
+        "id_pieza": 51,
+        "nombre_pieza": "Latiguillo de freno",
+        "categoria": "Frenos",
+        "precio_base_eur": 195.13,
+        "horas_mano_obra": 1.3,
+        "proveedor_preferente": "Mister-Auto",
+        "_id": "6a198129e55f0330fcb5099a"
+    },
+    {
+        "codigo_averia": 312,
+        "id_pieza": 52,
+        "nombre_pieza": "Sensor de desgaste de pastillas",
+        "categoria": "Frenos",
+        "precio_base_eur": 84.03,
+        "horas_mano_obra": 1.2,
+        "proveedor_preferente": "Mister-Auto",
+        "_id": "6a198129e55f0330fcb5099b"
+    },
+    {
+        "codigo_averia": 313,
+        "id_pieza": 53,
+        "nombre_pieza": "Bomba de freno",
+        "categoria": "Frenos",
+        "precio_base_eur": 388.98,
+        "horas_mano_obra": 1.2,
+        "proveedor_preferente": "Mister-Auto",
+        "_id": "6a198129e55f0330fcb5099c"
+    },
+    {
+        "codigo_averia": 314,
+        "id_pieza": 54,
+        "nombre_pieza": "Servofreno",
+        "categoria": "Frenos",
+        "precio_base_eur": 323.43,
+        "horas_mano_obra": 1.3,
+        "proveedor_preferente": "RecambiosCoches",
+        "_id": "6a198129e55f0330fcb5099d"
+    },
+    {
+        "codigo_averia": 315,
+        "id_pieza": 55,
+        "nombre_pieza": "Liquido de frenos",
+        "categoria": "Frenos",
+        "precio_base_eur": 293.1,
+        "horas_mano_obra": 1.4,
+        "proveedor_preferente": "RecambiosCoches",
+        "_id": "6a198129e55f0330fcb5099e"
+    },
+    {
+        "codigo_averia": 316,
+        "id_pieza": 56,
+        "nombre_pieza": "Sensor ABS",
+        "categoria": "Frenos",
+        "precio_base_eur": 145.21,
+        "horas_mano_obra": 0.8,
+        "proveedor_preferente": "Mister-Auto",
+        "_id": "6a198129e55f0330fcb5099f"
+    },
+    {
+        "codigo_averia": 317,
+        "id_pieza": 57,
+        "nombre_pieza": "Modulo ABS",
+        "categoria": "Frenos",
+        "precio_base_eur": 302.06,
+        "horas_mano_obra": 1.4,
+        "proveedor_preferente": "RecambiosCoches",
+        "_id": "6a198129e55f0330fcb509a0"
+    },
+    {
+        "codigo_averia": 318,
+        "id_pieza": 58,
+        "nombre_pieza": "Amortiguador delantero",
+        "categoria": "Suspensión y dirección",
+        "precio_base_eur": 404.7,
+        "horas_mano_obra": 1.1,
+        "proveedor_preferente": "Mister-Auto",
+        "_id": "6a198129e55f0330fcb509a1"
+    },
+    {
+        "codigo_averia": 319,
+        "id_pieza": 59,
+        "nombre_pieza": "Amortiguador trasero",
+        "categoria": "Suspensión y dirección",
+        "precio_base_eur": 346.9,
+        "horas_mano_obra": 0.8,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb509a2"
+    },
+    {
+        "codigo_averia": 320,
+        "id_pieza": 60,
+        "nombre_pieza": "Brazo de suspensión",
+        "categoria": "Suspensión y dirección",
+        "precio_base_eur": 251.78,
+        "horas_mano_obra": 1.1,
+        "proveedor_preferente": "AUTODOC",
+        "_id": "6a198129e55f0330fcb509a3"
+    },
+    {
+        "codigo_averia": 401,
+        "id_pieza": 61,
+        "nombre_pieza": "Rótula de dirección",
+        "categoria": "Suspensión y dirección",
+        "precio_base_eur": 69.35,
+        "horas_mano_obra": 0.8,
+        "proveedor_preferente": "RecambiosCoches",
+        "_id": "6a198129e55f0330fcb509a4"
+    },
+    {
+        "codigo_averia": 402,
+        "id_pieza": 62,
+        "nombre_pieza": "Terminal de dirección",
+        "categoria": "Suspensión y dirección",
+        "precio_base_eur": 137.59,
+        "horas_mano_obra": 0.9,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb509a5"
+    },
+    {
+        "codigo_averia": 403,
+        "id_pieza": 63,
+        "nombre_pieza": "Barra estabilizadora",
+        "categoria": "Suspensión y dirección",
+        "precio_base_eur": 285.34,
+        "horas_mano_obra": 1.1,
+        "proveedor_preferente": "Mister-Auto",
+        "_id": "6a198129e55f0330fcb509a6"
+    },
+    {
+        "codigo_averia": 404,
+        "id_pieza": 64,
+        "nombre_pieza": "Cazoleta de amortiguador",
+        "categoria": "Suspensión y dirección",
+        "precio_base_eur": 91.94,
+        "horas_mano_obra": 0.8,
+        "proveedor_preferente": "Mister-Auto",
+        "_id": "6a198129e55f0330fcb509a7"
+    },
+    {
+        "codigo_averia": 405,
+        "id_pieza": 65,
+        "nombre_pieza": "Silentblock",
+        "categoria": "Suspensión y dirección",
+        "precio_base_eur": 208.37,
+        "horas_mano_obra": 0.9,
+        "proveedor_preferente": "AUTODOC",
+        "_id": "6a198129e55f0330fcb509a8"
+    },
+    {
+        "codigo_averia": 406,
+        "id_pieza": 66,
+        "nombre_pieza": "Cojinete de rueda",
+        "categoria": "Suspensión y dirección",
+        "precio_base_eur": 246.44,
+        "horas_mano_obra": 0.8,
+        "proveedor_preferente": "AUTODOC",
+        "_id": "6a198129e55f0330fcb509a9"
+    },
+    {
+        "codigo_averia": 407,
+        "id_pieza": 67,
+        "nombre_pieza": "Muelle de suspensión",
+        "categoria": "Suspensión y dirección",
+        "precio_base_eur": 32.22,
+        "horas_mano_obra": 0.8,
+        "proveedor_preferente": "Mister-Auto",
+        "_id": "6a198129e55f0330fcb509aa"
+    },
+    {
+        "codigo_averia": 408,
+        "id_pieza": 68,
+        "nombre_pieza": "Sensor de ángulo de dirección",
+        "categoria": "Suspensión y dirección",
+        "precio_base_eur": 113.98,
+        "horas_mano_obra": 1.0,
+        "proveedor_preferente": "AUTODOC",
+        "_id": "6a198129e55f0330fcb509ab"
+    },
+    {
+        "codigo_averia": 409,
+        "id_pieza": 69,
+        "nombre_pieza": "Cremallera de dirección",
+        "categoria": "Suspensión y dirección",
+        "precio_base_eur": 313.16,
+        "horas_mano_obra": 1.1,
+        "proveedor_preferente": "Mister-Auto",
+        "_id": "6a198129e55f0330fcb509ac"
+    },
+    {
+        "codigo_averia": 410,
+        "id_pieza": 70,
+        "nombre_pieza": "Alternador",
+        "categoria": "Electricidad y sensores",
+        "precio_base_eur": 152.36,
+        "horas_mano_obra": 1.0,
+        "proveedor_preferente": "AUTODOC",
+        "_id": "6a198129e55f0330fcb509ad"
+    },
+    {
+        "codigo_averia": 411,
+        "id_pieza": 71,
+        "nombre_pieza": "Batería",
+        "categoria": "Electricidad y sensores",
+        "precio_base_eur": 322.75,
+        "horas_mano_obra": 0.7,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb509ae"
+    },
+    {
+        "codigo_averia": 412,
+        "id_pieza": 72,
+        "nombre_pieza": "Motor de arranque",
+        "categoria": "Electricidad y sensores",
+        "precio_base_eur": 208.25,
+        "horas_mano_obra": 0.9,
+        "proveedor_preferente": "Mister-Auto",
+        "_id": "6a198129e55f0330fcb509af"
+    },
+    {
+        "codigo_averia": 413,
+        "id_pieza": 73,
+        "nombre_pieza": "Fusible principal",
+        "categoria": "Electricidad y sensores",
+        "precio_base_eur": 127.45,
+        "horas_mano_obra": 0.9,
+        "proveedor_preferente": "Mister-Auto",
+        "_id": "6a198129e55f0330fcb509b0"
+    },
+    {
+        "codigo_averia": 414,
+        "id_pieza": 74,
+        "nombre_pieza": "Caja de fusibles",
+        "categoria": "Electricidad y sensores",
+        "precio_base_eur": 193.33,
+        "horas_mano_obra": 0.9,
+        "proveedor_preferente": "Mister-Auto",
+        "_id": "6a198129e55f0330fcb509b1"
+    },
+    {
+        "codigo_averia": 415,
+        "id_pieza": 75,
+        "nombre_pieza": "Sensor ABS",
+        "categoria": "Electricidad y sensores",
+        "precio_base_eur": 285.7,
+        "horas_mano_obra": 0.8,
+        "proveedor_preferente": "RecambiosCoches",
+        "_id": "6a198129e55f0330fcb509b2"
+    },
+    {
+        "codigo_averia": 416,
+        "id_pieza": 76,
+        "nombre_pieza": "Sensor de velocidad de rueda",
+        "categoria": "Electricidad y sensores",
+        "precio_base_eur": 151.49,
+        "horas_mano_obra": 1.1,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb509b3"
+    },
+    {
+        "codigo_averia": 417,
+        "id_pieza": 77,
+        "nombre_pieza": "Sensor de presión de neumáticos",
+        "categoria": "Electricidad y sensores",
+        "precio_base_eur": 114.47,
+        "horas_mano_obra": 0.9,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb509b4"
+    },
+    {
+        "codigo_averia": 418,
+        "id_pieza": 78,
+        "nombre_pieza": "Interruptor de pedal de freno",
+        "categoria": "Electricidad y sensores",
+        "precio_base_eur": 247.09,
+        "horas_mano_obra": 0.9,
+        "proveedor_preferente": "AUTODOC",
+        "_id": "6a198129e55f0330fcb509b5"
+    },
+    {
+        "codigo_averia": 419,
+        "id_pieza": 79,
+        "nombre_pieza": "Interruptor de embrague",
+        "categoria": "Electricidad y sensores",
+        "precio_base_eur": 63.36,
+        "horas_mano_obra": 0.8,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb509b6"
+    },
+    {
+        "codigo_averia": 420,
+        "id_pieza": 80,
+        "nombre_pieza": "Conector de diagnosis OBD",
+        "categoria": "Electricidad y sensores",
+        "precio_base_eur": 399.78,
+        "horas_mano_obra": 0.7,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb509b7"
+    },
+    {
+        "codigo_averia": 501,
+        "id_pieza": 81,
+        "nombre_pieza": "Unidad de control ECU",
+        "categoria": "Electricidad y sensores",
+        "precio_base_eur": 364.76,
+        "horas_mano_obra": 0.9,
+        "proveedor_preferente": "Mister-Auto",
+        "_id": "6a198129e55f0330fcb509b8"
+    },
+    {
+        "codigo_averia": 502,
+        "id_pieza": 82,
+        "nombre_pieza": "Kit de embrague",
+        "categoria": "Transmisión y embrague",
+        "precio_base_eur": 565.43,
+        "horas_mano_obra": 1.3,
+        "proveedor_preferente": "RecambiosCoches",
+        "_id": "6a198129e55f0330fcb509b9"
+    },
+    {
+        "codigo_averia": 503,
+        "id_pieza": 83,
+        "nombre_pieza": "Volante bimasa",
+        "categoria": "Transmisión y embrague",
+        "precio_base_eur": 672.85,
+        "horas_mano_obra": 1.0,
+        "proveedor_preferente": "AUTODOC",
+        "_id": "6a198129e55f0330fcb509ba"
+    },
+    {
+        "codigo_averia": 504,
+        "id_pieza": 84,
+        "nombre_pieza": "Bomba de embrague",
+        "categoria": "Transmisión y embrague",
+        "precio_base_eur": 332.38,
+        "horas_mano_obra": 0.9,
+        "proveedor_preferente": "Mister-Auto",
+        "_id": "6a198129e55f0330fcb509bb"
+    },
+    {
+        "codigo_averia": 505,
+        "id_pieza": 85,
+        "nombre_pieza": "Cilindro maestro de embrague",
+        "categoria": "Transmisión y embrague",
+        "precio_base_eur": 123.18,
+        "horas_mano_obra": 1.4,
+        "proveedor_preferente": "Mister-Auto",
+        "_id": "6a198129e55f0330fcb509bc"
+    },
+    {
+        "codigo_averia": 506,
+        "id_pieza": 86,
+        "nombre_pieza": "Cilindro receptor de embrague",
+        "categoria": "Transmisión y embrague",
+        "precio_base_eur": 204.52,
+        "horas_mano_obra": 0.9,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb509bd"
+    },
+    {
+        "codigo_averia": 507,
+        "id_pieza": 87,
+        "nombre_pieza": "Palier",
+        "categoria": "Transmisión y embrague",
+        "precio_base_eur": 410.52,
+        "horas_mano_obra": 1.0,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb509be"
+    },
+    {
+        "codigo_averia": 508,
+        "id_pieza": 88,
+        "nombre_pieza": "Junta homocinética",
+        "categoria": "Transmisión y embrague",
+        "precio_base_eur": 271.38,
+        "horas_mano_obra": 0.8,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb509bf"
+    },
+    {
+        "codigo_averia": 509,
+        "id_pieza": 89,
+        "nombre_pieza": "Soporte de caja de cambios",
+        "categoria": "Transmisión y embrague",
+        "precio_base_eur": 318.97,
+        "horas_mano_obra": 1.2,
+        "proveedor_preferente": "Mister-Auto",
+        "_id": "6a198129e55f0330fcb509c0"
+    },
+    {
+        "codigo_averia": 510,
+        "id_pieza": 90,
+        "nombre_pieza": "Aceite de transmisión",
+        "categoria": "Transmisión y embrague",
+        "precio_base_eur": 48.24,
+        "horas_mano_obra": 1.4,
+        "proveedor_preferente": "Mister-Auto",
+        "_id": "6a198129e55f0330fcb509c1"
+    },
+    {
+        "codigo_averia": 511,
+        "id_pieza": 91,
+        "nombre_pieza": "Compresor de aire acondicionado",
+        "categoria": "Climatización",
+        "precio_base_eur": 143.24,
+        "horas_mano_obra": 0.6,
+        "proveedor_preferente": "RecambiosCoches",
+        "_id": "6a198129e55f0330fcb509c2"
+    },
+    {
+        "codigo_averia": 512,
+        "id_pieza": 92,
+        "nombre_pieza": "Condensador de A/C",
+        "categoria": "Climatización",
+        "precio_base_eur": 56.44,
+        "horas_mano_obra": 0.7,
+        "proveedor_preferente": "Mister-Auto",
+        "_id": "6a198129e55f0330fcb509c3"
+    },
+    {
+        "codigo_averia": 513,
+        "id_pieza": 93,
+        "nombre_pieza": "Filtro de habitáculo",
+        "categoria": "Climatización",
+        "precio_base_eur": 160.52,
+        "horas_mano_obra": 0.8,
+        "proveedor_preferente": "AUTODOC",
+        "_id": "6a198129e55f0330fcb509c4"
+    },
+    {
+        "codigo_averia": 514,
+        "id_pieza": 94,
+        "nombre_pieza": "Válvula de expansión",
+        "categoria": "Climatización",
+        "precio_base_eur": 66.09,
+        "horas_mano_obra": 0.6,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb509c5"
+    },
+    {
+        "codigo_averia": 515,
+        "id_pieza": 95,
+        "nombre_pieza": "Sensor de presión de A/C",
+        "categoria": "Climatización",
+        "precio_base_eur": 166.26,
+        "horas_mano_obra": 1.0,
+        "proveedor_preferente": "AUTODOC",
+        "_id": "6a198129e55f0330fcb509c6"
+    },
+    {
+        "codigo_averia": 516,
+        "id_pieza": 96,
+        "nombre_pieza": "Filtro de aceite",
+        "categoria": "Mantenimiento básico",
+        "precio_base_eur": 142.53,
+        "horas_mano_obra": 0.4,
+        "proveedor_preferente": "Mister-Auto",
+        "_id": "6a198129e55f0330fcb509c7"
+    },
+    {
+        "codigo_averia": 517,
+        "id_pieza": 97,
+        "nombre_pieza": "Filtro de aire",
+        "categoria": "Mantenimiento básico",
+        "precio_base_eur": 170.01,
+        "horas_mano_obra": 0.5,
+        "proveedor_preferente": "Mister-Auto",
+        "_id": "6a198129e55f0330fcb509c8"
+    },
+    {
+        "codigo_averia": 518,
+        "id_pieza": 98,
+        "nombre_pieza": "Escobillas limpiaparabrisas",
+        "categoria": "Mantenimiento básico",
+        "precio_base_eur": 52.47,
+        "horas_mano_obra": 0.6,
+        "proveedor_preferente": "AUTODOC",
+        "_id": "6a198129e55f0330fcb509c9"
+    },
+    {
+        "codigo_averia": 519,
+        "id_pieza": 99,
+        "nombre_pieza": "Aceite de motor",
+        "categoria": "Mantenimiento básico",
+        "precio_base_eur": 150.1,
+        "horas_mano_obra": 0.5,
+        "proveedor_preferente": "Oscaro",
+        "_id": "6a198129e55f0330fcb509ca"
+    },
+    {
+        "codigo_averia": 520,
+        "id_pieza": 100,
+        "nombre_pieza": "Liquido refrigerante",
+        "categoria": "Mantenimiento básico",
+        "precio_base_eur": 63.4,
+        "horas_mano_obra": 0.5,
+        "proveedor_preferente": "AUTODOC",
+        "_id": "6a198129e55f0330fcb509cb"
+    }
+]

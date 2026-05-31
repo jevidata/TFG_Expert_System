@@ -1,0 +1,334 @@
+[
+    {
+        "id": "e5a5138e811c1c49",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "flow_diag_principal",
+        "type": "tab",
+        "label": "Sistema de Diagnóstico",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "b7c45fcde4df52a0",
+        "type": "mongodb",
+        "hostname": "mongodb",
+        "topology": "direct",
+        "connectOptions": "",
+        "port": 27017,
+        "db": "tfg_database",
+        "name": "Conexion_TFG"
+    },
+    {
+        "id": "ui_base",
+        "type": "ui-base",
+        "name": "TFG Dashboard",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-control",
+            "ui-notification"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 5,
+        "showDisconnectNotification": true,
+        "allowInstall": true
+    },
+    {
+        "id": "ui_page_diag",
+        "type": "ui-page",
+        "name": "Diagnóstico",
+        "ui": "ui_base",
+        "path": "/diagnostico",
+        "icon": "wrench",
+        "layout": "grid",
+        "theme": "",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "ui_grp_sintomas",
+        "type": "ui-group",
+        "name": "Panel de Control",
+        "page": "ui_page_diag",
+        "width": "6",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "8b4cac2685a88e95",
+        "type": "ui-form",
+        "z": "flow_diag_principal",
+        "name": "",
+        "group": "ui_grp_sintomas",
+        "label": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Marca",
+                "key": "marca",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Modelo",
+                "key": "modelo",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Sintomas",
+                "key": "sintomas",
+                "type": "multiline",
+                "required": true,
+                "rows": 3
+            }
+        ],
+        "formValue": {
+            "marca": "",
+            "modelo": "",
+            "sintomas": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "clear",
+        "resetOnSubmit": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "passthru": false,
+        "dropdownOptions": [],
+        "x": 70,
+        "y": 120,
+        "wires": [
+            [
+                "cd409d53448f5bdc"
+            ]
+        ]
+    },
+    {
+        "id": "0b1c27eab2b10d39",
+        "type": "debug",
+        "z": "flow_diag_principal",
+        "name": "sda diagnóstico",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "cd409d53448f5bdc",
+        "type": "function",
+        "z": "flow_diag_principal",
+        "name": "function 1",
+        "func": "let marca = msg.payload.marca;\nlet modelo = msg.payload.modelo;\nlet sintomas = msg.payload.sintomas;\n\nif (!marca || marca.trim() === \"\" ||\n    !modelo || modelo.trim() === \"\" ||\n    !sintomas || sintomas.trim() === \"\") {\n    return null;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 120,
+        "wires": [
+            [
+                "5ce0492f357e8dbc",
+                "bff5af811cca3fc2"
+            ]
+        ]
+    },
+    {
+        "id": "dcf9871d3ddfc55d",
+        "type": "mongodb out",
+        "z": "flow_diag_principal",
+        "mongodb": "b7c45fcde4df52a0",
+        "name": "Guardar Averias",
+        "collection": "averias",
+        "payonly": true,
+        "upsert": false,
+        "multi": false,
+        "operation": "insert",
+        "x": 880,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "2c989db6d0f16235",
+        "type": "ui-notification",
+        "z": "flow_diag_principal",
+        "ui": "",
+        "position": "top right",
+        "colorDefault": true,
+        "color": null,
+        "displayTime": "3",
+        "showCountdown": true,
+        "outputs": 1,
+        "allowDismiss": true,
+        "dismissText": "Close",
+        "allowConfirm": false,
+        "confirmText": "Confirm",
+        "raw": false,
+        "className": "",
+        "name": "",
+        "x": 890,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5ce0492f357e8dbc",
+        "type": "function",
+        "z": "flow_diag_principal",
+        "name": "Diagnostico 1",
+        "func": "let marca = (msg.payload.marca || \"\").toLowerCase().trim();\nlet modelo = (msg.payload.modelo || \"\").toLowerCase().trim();\nlet s = (msg.payload.sintomas || \"\").toLowerCase().trim();\n\nlet resultados = [];\n\n// SÍNTOMAS\nif (s.includes(\"humo negro\")) {\n    resultados.push({\n        tipo: \"síntoma\",\n        codigo: null,\n        diagnostico: \"Posible mezcla rica o problema de inyección\",\n        prioridad: \"media\",\n        recomendacion: \"Revisar inyectores, filtro de aire y sistema de admisión\"\n    });\n}\n\nif (s.includes(\"humo blanco\")) {\n    resultados.push({\n        tipo: \"síntoma\",\n        codigo: null,\n        diagnostico: \"Posible entrada de refrigerante en la combustión\",\n        prioridad: \"alta\",\n        recomendacion: \"Comprobar junta de culata, nivel de refrigerante y estanqueidad del circuito\"\n    });\n}\n\nif (s.includes(\"humo azul\")) {\n    resultados.push({\n        tipo: \"síntoma\",\n        codigo: null,\n        diagnostico: \"Posible consumo de aceite por desgaste interno\",\n        prioridad: \"media\",\n        recomendacion: \"Revisar segmentos, retenes de válvula y nivel de aceite\"\n    });\n}\n\nif (s.includes(\"fuga de aceite\")) {\n    resultados.push({\n        tipo: \"síntoma\",\n        codigo: null,\n        diagnostico: \"Posible fuga en juntas o retenes\",\n        prioridad: \"media\",\n        recomendacion: \"Inspeccionar cárter, tapa de balancines, retenes y zonas de sellado\"\n    });\n}\n\nif (s.includes(\"perdida de potencia\") || s.includes(\"pérdida de potencia\")) {\n    resultados.push({\n        tipo: \"síntoma\",\n        codigo: null,\n        diagnostico: \"Posible fallo en admisión, turbo o alimentación\",\n        prioridad: \"alta\",\n        recomendacion: \"Revisar turbo, caudalímetro, filtro de combustible y presión de admisión\"\n    });\n}\n\nif (s.includes(\"tirones\")) {\n    resultados.push({\n        tipo: \"síntoma\",\n        codigo: null,\n        diagnostico: \"Posible fallo de combustión o alimentación\",\n        prioridad: \"media\",\n        recomendacion: \"Comprobar bujías, bobinas, inyectores o suministro de combustible\"\n    });\n}\n\nif (s.includes(\"vibracion\") || s.includes(\"vibración\")) {\n    resultados.push({\n        tipo: \"síntoma\",\n        codigo: null,\n        diagnostico: \"Posible desequilibrio mecánico o problema de frenos/suspensión\",\n        prioridad: \"media\",\n        recomendacion: \"Revisar ruedas, discos, soportes y elementos de suspensión\"\n    });\n}\n\nif (s.includes(\"silbido turbo\")) {\n    resultados.push({\n        tipo: \"síntoma\",\n        codigo: null,\n        diagnostico: \"Posible fuga o desgaste en el sistema de sobrealimentación\",\n        prioridad: \"alta\",\n        recomendacion: \"Inspeccionar manguitos, turbo e intercooler\"\n    });\n}\n\nif (s.includes(\"testigo motor\") || s.includes(\"check engine\")) {\n    resultados.push({\n        tipo: \"síntoma\",\n        codigo: null,\n        diagnostico: \"Avería electrónica o de emisiones pendiente de lectura DTC\",\n        prioridad: \"media\",\n        recomendacion: \"Leer códigos OBD-II y relacionarlos con la base de conocimiento\"\n    });\n}\n\nif (s.includes(\"no arranca\")) {\n    resultados.push({\n        tipo: \"síntoma\",\n        codigo: null,\n        diagnostico: \"Posible fallo de batería, arranque o alimentación\",\n        prioridad: \"alta\",\n        recomendacion: \"Comprobar batería, motor de arranque, fusibles y suministro de combustible\"\n    });\n}\n\n// CÓDIGOS DTC\nif (s.includes(\"p0300\")) {\n    resultados.push({\n        tipo: \"DTC\",\n        codigo: \"P0300\",\n        diagnostico: \"Fallos de encendido aleatorios o múltiples detectados\",\n        prioridad: \"alta\",\n        recomendacion: \"Revisar bujías, bobinas, inyectores, admisión y compresión\"\n    });\n}\n\nif (s.includes(\"p0171\")) {\n    resultados.push({\n        tipo: \"DTC\",\n        codigo: \"P0171\",\n        diagnostico: \"Mezcla demasiado pobre en banco 1\",\n        prioridad: \"alta\",\n        recomendacion: \"Comprobar fugas de admisión, caudalímetro, presión de combustible e inyectores\"\n    });\n}\n\nif (s.includes(\"p0401\")) {\n    resultados.push({\n        tipo: \"DTC\",\n        codigo: \"P0401\",\n        diagnostico: \"Flujo insuficiente en el sistema EGR\",\n        prioridad: \"media\",\n        recomendacion: \"Revisar válvula EGR, conductos y posible acumulación de carbonilla\"\n    });\n}\n\nif (s.includes(\"p0420\")) {\n    resultados.push({\n        tipo: \"DTC\",\n        codigo: \"P0420\",\n        diagnostico: \"Eficiencia del catalizador por debajo del umbral\",\n        prioridad: \"media\",\n        recomendacion: \"Comprobar catalizador, sonda lambda y posibles fallos previos de combustión\"\n    });\n}\n\nif (resultados.length === 0) {\n    resultados.push({\n        tipo: \"desconocido\",\n        codigo: null,\n        diagnostico: \"Avería no identificada con la regla actual\",\n        prioridad: \"revisar\",\n        recomendacion: \"Añadir más síntomas o consultar códigos DTC para afinar el diagnóstico\"\n    });\n}\n\nmsg.payload = {\n    marca: marca,\n    modelo: modelo,\n    entrada: msg.payload.sintomas,\n    resultados: resultados\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 120,
+        "wires": [
+            [
+                "0b1c27eab2b10d39",
+                "904e76461afceef3",
+                "e47546e78f801c76"
+            ]
+        ]
+    },
+    {
+        "id": "904e76461afceef3",
+        "type": "function",
+        "z": "flow_diag_principal",
+        "name": "Aviso",
+        "func": "let texto = \"\";\n\nmsg.payload.resultados.forEach((r, i) => {\n    texto += \"Avería \" + (i + 1) + \": \" + r.diagnostico + \"\\n\";\n    texto += \"Gravedad: \" + r.prioridad + \"\\n\";\n    texto += \"Recomendación: \" + r.recomendacion + \"\\n\";\n\n    if (r.codigo) {\n        texto += \"Código DTC: \" + r.codigo + \"\\n\";\n    }\n\n    texto += \"\\n\";\n});\n\nmsg.payload = texto;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 300,
+        "wires": [
+            [
+                "7e571a92da918acd",
+                "2c989db6d0f16235"
+            ]
+        ]
+    },
+    {
+        "id": "bff5af811cca3fc2",
+        "type": "debug",
+        "z": "flow_diag_principal",
+        "name": "entrada",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "7e571a92da918acd",
+        "type": "debug",
+        "z": "flow_diag_principal",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 860,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "e47546e78f801c76",
+        "type": "function",
+        "z": "flow_diag_principal",
+        "name": "function fecha",
+        "func": "msg.payload.fecha = new Date().toISOString();\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 120,
+        "wires": [
+            [
+                "dcf9871d3ddfc55d"
+            ]
+        ]
+    },
+    {
+        "id": "953cb17e992ef388",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-node-mongodb": "0.2.5",
+            "@flowfuse/node-red-dashboard": "1.30.2"
+        }
+    }
+]

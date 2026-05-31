@@ -1,0 +1,711 @@
+[
+    {
+        "id": "350e37389b9f29b3",
+        "type": "tab",
+        "label": "Sistema de Diagnóstico",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "b7c45fcde4df52a0",
+        "type": "mongodb",
+        "hostname": "mongodb",
+        "topology": "direct",
+        "connectOptions": "",
+        "port": 27017,
+        "db": "tfg_database",
+        "name": "Conexion_TFG"
+    },
+    {
+        "id": "ui_base",
+        "type": "ui-base",
+        "name": "TFG Dashboard",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-control",
+            "ui-notification"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 5,
+        "showDisconnectNotification": true,
+        "allowInstall": true
+    },
+    {
+        "id": "4d923f4d1c40edd7",
+        "type": "ui-theme",
+        "name": "Tema TFG",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "5d6c08e2b4595cfc",
+        "type": "ui-page",
+        "name": "Diagnóstico",
+        "ui": "ui_base",
+        "path": "/diagnostico",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "4d923f4d1c40edd7",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "8fa4ca9f821dda60",
+        "type": "ui-group",
+        "name": "Panel de Control",
+        "page": "5d6c08e2b4595cfc",
+        "width": 6,
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "466169734028a1d3",
+        "type": "ui-group",
+        "name": "Resultado Diagnóstico",
+        "page": "5d6c08e2b4595cfc",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "35dba3692fc45697",
+        "type": "ui-page",
+        "name": "Page 2",
+        "ui": "ui_base",
+        "path": "/page2",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "4d923f4d1c40edd7",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": 0,
+                "cols": 3
+            },
+            {
+                "name": "Tablet",
+                "px": 576,
+                "cols": 6
+            },
+            {
+                "name": "Small Desktop",
+                "px": 768,
+                "cols": 9
+            },
+            {
+                "name": "Desktop",
+                "px": 1024,
+                "cols": 12
+            }
+        ],
+        "order": 2,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "c80213eae81d0b55",
+        "type": "mongodb",
+        "hostname": "mongodb",
+        "topology": "direct",
+        "connectOptions": "",
+        "port": 27017,
+        "db": "tfg_database",
+        "name": "Conexion_TFG"
+    },
+    {
+        "id": "2ef73bc17db3c42d",
+        "type": "ui-form",
+        "z": "350e37389b9f29b3",
+        "name": "Formulario diagnóstico",
+        "group": "8fa4ca9f821dda60",
+        "label": "Entrada de datos del vehículo",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Cliente",
+                "key": "cliente",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Matrícula",
+                "key": "matricula",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Marca",
+                "key": "marca",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Modelo",
+                "key": "modelo",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Motor",
+                "key": "motor",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Año",
+                "key": "anio",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Código DTC",
+                "key": "codigo_dtc",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Síntoma",
+                "key": "sintoma",
+                "type": "multiline",
+                "required": true,
+                "rows": 3
+            },
+            {
+                "label": "Observaciones",
+                "key": "observaciones",
+                "type": "multiline",
+                "required": false,
+                "rows": 3
+            }
+        ],
+        "formValue": {
+            "cliente": "",
+            "matricula": "",
+            "marca": "",
+            "modelo": "",
+            "motor": "",
+            "anio": "",
+            "codigo_dtc": "",
+            "sintoma": "",
+            "observaciones": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "clear",
+        "resetOnSubmit": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "passthru": false,
+        "dropdownOptions": [],
+        "x": 120,
+        "y": 220,
+        "wires": [
+            [
+                "3a17fb6401f427fb"
+            ]
+        ]
+    },
+    {
+        "id": "f1be506d17389dd4",
+        "type": "debug",
+        "z": "350e37389b9f29b3",
+        "name": "sda diagnóstico",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 340,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "3a17fb6401f427fb",
+        "type": "function",
+        "z": "350e37389b9f29b3",
+        "name": "function 1",
+        "func": "let marca = msg.payload.marca;\nlet modelo = msg.payload.modelo;\nlet sintoma = msg.payload.sintoma;\n\nif (!marca || marca.trim() === \"\" ||\n    !modelo || modelo.trim() === \"\" ||\n    !sintoma || sintoma.trim() === \"\") {\n    return null;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 100,
+        "y": 120,
+        "wires": [
+            [
+                "6949c35526cf5d74"
+            ]
+        ]
+    },
+    {
+        "id": "4d61bc2fa5d12ed8",
+        "type": "mongodb out",
+        "z": "350e37389b9f29b3",
+        "mongodb": "b7c45fcde4df52a0",
+        "name": "Guardar Averias",
+        "collection": "averias",
+        "payonly": true,
+        "upsert": false,
+        "multi": false,
+        "operation": "insert",
+        "x": 980,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "abaa0344608ed0dd",
+        "type": "ui-notification",
+        "z": "350e37389b9f29b3",
+        "ui": "ui_base",
+        "position": "top right",
+        "colorDefault": true,
+        "color": "#000000",
+        "displayTime": "0",
+        "showCountdown": true,
+        "outputs": 1,
+        "allowDismiss": true,
+        "dismissText": "Close",
+        "allowConfirm": false,
+        "confirmText": "Confirm",
+        "raw": true,
+        "className": "",
+        "name": "Resultado Aviso",
+        "x": 980,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f0d2e47c4883dc7d",
+        "type": "function",
+        "z": "350e37389b9f29b3",
+        "name": "Aviso",
+        "func": "// Verificar si tenemos datos de la IA\n// Como restauramos los datos del formulario en el nodo anterior,\n// la IA ahora está guardada en msg.payload.diagnostico_ia\n\nvar diagnostico = msg.payload.diagnostico_ia;\n\nif (diagnostico && diagnostico.length > 0) {\n    // Si hay diagnóstico, creamos el mensaje para la notificación\n    var mensaje = \"Diagnóstico IA Detectado:\\n\";\n    diagnostico.forEach(function (d, i) {\n        mensaje += (i + 1) + \". \" + d.codigo_averia + \" (\" + d.probabilidad + \"%)\\n\";\n    });\n\n    // Asignamos el mensaje al payload para que la notificación lo muestre\n    msg.payload = mensaje;\n    return msg;\n} else {\n    // Si no hay diagnóstico o falló algo\n    msg.payload = \"️ No se pudo obtener diagnóstico.\";\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 870,
+        "y": 180,
+        "wires": [
+            [
+                "a45ec20f2b9e021a",
+                "5bfd760c04a491af"
+            ]
+        ]
+    },
+    {
+        "id": "c9da243d359a84e7",
+        "type": "debug",
+        "z": "350e37389b9f29b3",
+        "name": "entrada",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 100,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "a45ec20f2b9e021a",
+        "type": "debug",
+        "z": "350e37389b9f29b3",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1020,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "4d01f2abf0c20b88",
+        "type": "function",
+        "z": "350e37389b9f29b3",
+        "name": "function fecha",
+        "func": "msg.payload.fecha = new Date().toISOString();\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 100,
+        "wires": [
+            [
+                "4d61bc2fa5d12ed8"
+            ]
+        ]
+    },
+    {
+        "id": "5bfd760c04a491af",
+        "type": "ui-template",
+        "z": "350e37389b9f29b3",
+        "group": "466169734028a1d3",
+        "page": "",
+        "ui": "",
+        "name": "Resultado Fijo",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<div ng-if=\"msg.payload && msg.payload.html\" ng-bind-html=\"msg.payload.html\"></div>\n<div ng-if=\"!msg.payload || !msg.payload.html\" style=\"padding: 20px; text-align: center; color: #666;\">\n    <h3>🔧 Sistema de Diagnóstico</h3>\n    <p>Esperando datos del formulario...</p>\n</div>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 920,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4b579ddf2277e78b",
+        "type": "ui-button",
+        "z": "350e37389b9f29b3",
+        "group": "8fa4ca9f821dda60",
+        "name": "",
+        "label": "Limpiar Diagnóstico",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "Esperando resultado del diagnóstico...",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 130,
+        "y": 320,
+        "wires": [
+            [
+                "5bfd760c04a491af"
+            ]
+        ]
+    },
+    {
+        "id": "d764dddb77409b05",
+        "type": "ui-template",
+        "z": "350e37389b9f29b3",
+        "group": "",
+        "page": "",
+        "ui": "ui_base",
+        "name": "Fijar Estilo Textarea",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "/* Fuerza la altura de línea y el espaciado en los cuadros de texto */\n.v-textarea textarea,\n.v-field__input fieldset,\n.v-field__input {\n    line-height: 1.5rem !important;\n    padding-top: 10px !important;\n    padding-bottom: 10px !important;\n}\n\n/* Evita que el contenedor colapse el texto por abajo */\n.v-input__control {\n    min-height: 56px !important;\n}",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "site:style",
+        "className": "",
+        "x": 970,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6949c35526cf5d74",
+        "type": "function",
+        "z": "350e37389b9f29b3",
+        "name": "Normalizar a Vector IA",
+        "func": "// 1. COPIA DE SEGURIDAD: Guardamos el formulario original para MongoDB\nmsg.datos_originales = msg.payload;\n\n// 2. LISTA DE SÍNTOMAS (Deben coincidir con tu dataset de entrenamiento)\nconst sintomas = [\n    \"humo_negro\", \"humo_blanco\", \"humo_azul\", \"fuga_aceite\", \"fuga_refrigerante\",\n    \"fuga_frenos\", \"fuga_combustible\", \"golpeteo_metalico\", \"silbido_turbo\",\n    \"chirrido_correa\", \"clack_giro\", \"zumbido_rodamiento\", \"perdida_potencia\",\n    \"tirones_aceleracion\", \"ralenti_inestable\", \"no_arranca\", \"se_cala_solo\",\n    \"vibracion_volante\", \"pedal_freno_blando\", \"direccion_dura\", \"cambio_marchas_duro\",\n    \"sobrecalentamiento\", \"aguja_temperatura_baja\", \"luz_check_engine\", \"luz_abs\",\n    \"luz_bateria\", \"luz_aceite\", \"luz_airbag\", \"olor_quemado\", \"olor_combustible\",\n    \"chirrido_frenos\", \"traqueteo_motor\"\n];\n\n// 3. CONSTRUIR VECTOR BINARIO PARA LA IA\nlet vectorParaIA = {};\nsintomas.forEach(s => {\n    if (msg.payload[s] && msg.payload[s] !== \"\" && msg.payload[s] !== false) {\n        vectorParaIA[s] = 1;\n    } else {\n        vectorParaIA[s] = 0;\n    }\n});\n\n// 4. ENVIAR SOLO EL VECTOR AL SIGUIENTE NODO (HTTP Request)\nmsg.payload = vectorParaIA;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 120,
+        "wires": [
+            [
+                "82099d35297a6b09"
+            ]
+        ]
+    },
+    {
+        "id": "82099d35297a6b09",
+        "type": "http request",
+        "z": "350e37389b9f29b3",
+        "name": "Consulta IA Flask",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://172.17.0.1:5000/diagnosticar",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 490,
+        "y": 40,
+        "wires": [
+            [
+                "8ab92f1031747396"
+            ]
+        ]
+    },
+    {
+        "id": "8ab92f1031747396",
+        "type": "function",
+        "z": "350e37389b9f29b3",
+        "name": "Procesar Top 3 y Restaurar Datos",
+        "func": "// 1. Guardamos la respuesta que viene de Python\nlet respuestaIA = msg.payload;\n\n// 2. RESTAURAMOS los datos originales del formulario (Cliente, Matrícula, etc.)\n// Esto es clave para que MongoDB guarde el documento completo y no solo el vector numérico.\nmsg.payload = msg.datos_originales;\n\n// 3. Añadimos el diagnóstico al documento que se guardará en Mongo\nif (respuestaIA && respuestaIA.diagnostico) {\n    msg.payload.diagnostico_ia = respuestaIA.diagnostico;\n}\n\n// 4. Preparamos texto para la pantalla del usuario (Dashboard)\nif (respuestaIA && respuestaIA.diagnostico && respuestaIA.diagnostico.length > 0) {\n    msg.ui_text = \"🔍 Diagnóstico Probabilístico:\\n\" +\n        respuestaIA.diagnostico.map((d, i) =>\n            `${i + 1}. Código ${d.codigo_averia} (${d.probabilidad}%)`\n        ).join('\\n');\n} else {\n    msg.ui_text = \"⚠️ No se detectaron averías claras.\";\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 180,
+        "wires": [
+            [
+                "4d01f2abf0c20b88",
+                "f0d2e47c4883dc7d",
+                "3fca053775199806"
+            ]
+        ]
+    },
+    {
+        "id": "50295490313c6630",
+        "type": "mongodb in",
+        "z": "350e37389b9f29b3",
+        "mongodb": "b7c45fcde4df52a0",
+        "name": "Consultar Descripción Avería",
+        "collection": "averias",
+        "operation": "find",
+        "x": 500,
+        "y": 440,
+        "wires": [
+            [
+                "c6b908f8b4216cdd"
+            ]
+        ]
+    },
+    {
+        "id": "bca7f1abde7dbde8",
+        "type": "mongodb in",
+        "z": "350e37389b9f29b3",
+        "mongodb": "b7c45fcde4df52a0",
+        "name": "Consultar Presupuesto Pieza",
+        "collection": "piezas_reparacion",
+        "operation": "find",
+        "x": 500,
+        "y": 680,
+        "wires": [
+            [
+                "33283fc36e13a0a8"
+            ]
+        ]
+    },
+    {
+        "id": "3fca053775199806",
+        "type": "function",
+        "z": "350e37389b9f29b3",
+        "name": "Preparar Consulta Avería",
+        "func": "// Cogemos la respuesta de la IA que viene de antes\nvar respuestaIA = msg.payload.diagnostico_ia;\n\n// Si la IA devolvió algo, cogemos el primero (el más probable)\nif (respuestaIA && respuestaIA.length > 0) {\n    // Guardamos el código numérico que dio la IA (ej: 315)\n    msg.codigo_averia_ia = respuestaIA[0].codigo_averia;\n    msg.probabilidad = respuestaIA[0].probabilidad;\n\n    // Preparamos la consulta para MongoDB. \n    // Buscamos en la colección 'averias' donde el campo 'codigo_averia' sea igual al que dio la IA\n    msg.payload = { \"codigo_averia\": msg.codigo_averia_ia };\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 380,
+        "wires": [
+            [
+                "50295490313c6630"
+            ]
+        ]
+    },
+    {
+        "id": "c6b908f8b4216cdd",
+        "type": "function",
+        "z": "350e37389b9f29b3",
+        "name": "Preparar Consulta Pieza",
+        "func": "// 1. Guardar la info de la avería que recibimos antes\nvar infoAveria = msg.info_averia_encontrada || {};\n\n// 2. Obtener el código que predijo la IA\nvar codigoIA = msg.codigo_averia_ia;\n\n// 3. Consultar MongoDB para obtener la pieza real\n// Buscaremos en la colección 'equivalencias_completas'\nmsg.payload = { \"codigo_averia\": codigoIA };\nmsg.collection = \"equivalencias_completas\";\n\n// Guardamos el código para usarlo después\nmsg.codigo_averia_consulta = codigoIA;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 500,
+        "wires": [
+            [
+                "f5897e5691627f14"
+            ]
+        ]
+    },
+    {
+        "id": "33283fc36e13a0a8",
+        "type": "function",
+        "z": "350e37389b9f29b3",
+        "name": "Consolidar y Calcular Presupuesto",
+        "func": "// 1. RECUPERAR DATOS DE PASOS ANTERIORES\nvar infoAveria = msg.info_averia_encontrada || {};\nvar docPrecio = (msg.payload && msg.payload.length > 0) ? msg.payload[0] : {};\nvar datosFormulario = msg.datos_originales || {};\nvar dtcUsuario = datosFormulario.codigo_dtc || \"\";\n\n// 2. CALCULAR PRESUPUESTO\nvar precioPieza = parseFloat(docPrecio.precio_base_eur) || 0;\nvar horasObra = parseFloat(docPrecio.horas_mano_obra) || 1.0;\nvar tarifaHora = 45;\nvar costeManoObra = horasObra * tarifaHora;\nvar totalPresupuesto = precioPieza + costeManoObra;\nvar proveedor = docPrecio.proveedor_preferente || \"Multimarca\";\nvar nombrePieza = msg.nombre_pieza_final || \"Pieza Genérica\";\n\n// 3. TRADUCIR CÓDIGO IA A DTC ESTÁNDAR\nvar codigoIA = msg.codigo_averia_ia.toString();\nvar diccionarioDTC = {\n    \"315\": \"P0420\",\n    \"316\": \"P0171\",\n    \"118\": \"P0300\",\n    \"202\": \"P0401\",\n    \"205\": \"P0128\"\n};\nvar dtcPredicho = diccionarioDTC[codigoIA] || \"Desconocido\";\n\n// 4. VALIDACIÓN ESCÁNER VIRTUAL\nvar estadoEscaneo = \"\";\nvar colorEstado = \"\";\n\nif (dtcUsuario === \"\") {\n    estadoEscaneo = \"Sin código DTC introducido. Diagnóstico basado en síntomas.\";\n    colorEstado = \"#ffc107\";\n} else if (dtcUsuario.toUpperCase().includes(dtcPredicho)) {\n    estadoEscaneo = \"✅ CONFIRMADO: El código del vehículo coincide con la IA.\";\n    colorEstado = \"#28a745\";\n} else {\n    estadoEscaneo = \"⚠️ ATENCIÓN: El código del vehículo (\" + dtcUsuario + \") difiere de la predicción (\" + dtcPredicho + \").\";\n    colorEstado = \"#dc3545\";\n}\n\n// 5. GENERAR HTML PARA DASHBOARD\nmsg.payload = {\n    html: `\n    <div style=\"font-family: sans-serif; max-width: 800px;\">\n        <h3 style=\"color: #0056b3; border-bottom: 2px solid #0056b3; padding-bottom: 5px;\">\n            🔍 Diagnóstico Probabilístico\n        </h3>\n        <p><strong>Predicción IA:</strong> Código ${codigoIA} (Confianza: ${msg.probabilidad}%)</p>\n        <p><strong>Avería Detectada:</strong> ${infoAveria.descripcion || \"Análisis de síntomas completado\"}</p>\n        <hr>\n        <div style=\"background-color: #f8f9fa; padding: 10px; border-radius: 5px; border-left: 5px solid ${colorEstado}; margin-bottom: 20px;\">\n            <strong>📡 Validación Escáner Virtual (OBD-II):</strong><br>\n            <small>Usuario: <b>${dtcUsuario || \"N/A\"}</b> | Predicción IA: <b>${dtcPredicho}</b></small><br>\n            <span style=\"font-weight:bold; color: ${colorEstado};\">${estadoEscaneo}</span>\n        </div>\n        <h3 style=\"color: #28a745;\">💰 Presupuesto Estimado de Reparación</h3>\n        <p><strong>Pieza a Sustituir:</strong> ${nombrePieza}</p>\n        <p><strong>Proveedor Recomendado:</strong> ${proveedor}</p>\n        <table style=\"width: 100%; border-collapse: collapse; margin-bottom: 10px;\">\n            <tr style=\"background-color: #e9ecef;\">\n                <td style=\"padding: 8px; border: 1px solid #ddd;\"><strong>Concepto</strong></td>\n                <td style=\"padding: 8px; border: 1px solid #ddd; text-align: right;\"><strong>Coste</strong></td>\n            </tr>\n            <tr>\n                <td style=\"padding: 8px; border: 1px solid #ddd;\">Pieza / Material</td>\n                <td style=\"padding: 8px; border: 1px solid #ddd; text-align: right;\">${precioPieza.toFixed(2)} €</td>\n            </tr>\n            <tr>\n                <td style=\"padding: 8px; border: 1px solid #ddd;\">Mano de Obra (${horasObra} h x ${tarifaHora} €/h)</td>\n                <td style=\"padding: 8px; border: 1px solid #ddd; text-align: right;\">${costeManoObra.toFixed(2)} €</td>\n            </tr>\n            <tr style=\"background-color: #d4edda; font-weight: bold; font-size: 1.1em;\">\n                <td style=\"padding: 8px; border: 1px solid #ddd;\">TOTAL ESTIMADO</td>\n                <td style=\"padding: 8px; border: 1px solid #ddd; text-align: right;\">${totalPresupuesto.toFixed(2)} €</td>\n            </tr>\n        </table>\n    </div>\n    `\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 740,
+        "wires": [
+            [
+                "5bfd760c04a491af"
+            ]
+        ]
+    },
+    {
+        "id": "f5897e5691627f14",
+        "type": "mongodb in",
+        "z": "350e37389b9f29b3",
+        "mongodb": "b7c45fcde4df52a0",
+        "name": "Consultar Equivalencias IA",
+        "collection": "equivalencias_completas",
+        "operation": "find",
+        "x": 500,
+        "y": 560,
+        "wires": [
+            [
+                "8a121117df011e72"
+            ]
+        ]
+    },
+    {
+        "id": "8a121117df011e72",
+        "type": "function",
+        "z": "350e37389b9f29b3",
+        "name": "Preparar Consulta Presupuesto",
+        "func": "// Recibimos el resultado de equivalencias (array de MongoDB)\nvar equivalencias = msg.payload;\n\nif (equivalencias && equivalencias.length > 0) {\n    var docEquivalencia = equivalencias[0];\n\n    // Guardamos info técnica\n    msg.info_tecnica = docEquivalencia;\n\n    // Extraemos el NOMBRE REAL de la pieza\n    var nombreReal = docEquivalencia.nombre_pieza;\n\n    // Preparamos consulta para el siguiente MongoDB\n    msg.payload = { \"nombre_pieza\": nombreReal };\n    msg.nombre_pieza_definitiva = nombreReal;\n\n    return msg;\n} else {\n    msg.payload = { \"nombre_pieza\": \"Filtro de aceite\" };\n    msg.nombre_pieza_definitiva = \"Pieza Genérica\";\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 620,
+        "wires": [
+            [
+                "bca7f1abde7dbde8"
+            ]
+        ]
+    },
+    {
+        "id": "aee62d5b6319e535",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-node-mongodb": "0.2.5",
+            "@flowfuse/node-red-dashboard": "1.30.2"
+        }
+    }
+]

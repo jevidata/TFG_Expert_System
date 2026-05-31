@@ -1,0 +1,62 @@
+[
+    {
+        "codigo_averia": 118,
+        "averia_clave": "fallo bujia",
+        "pieza_asociada": "Bujia",
+        "descripcion_regla": "Asocia problemas de encendido con la bujia"
+    },
+    {
+        "codigo_averia": 202,
+        "averia_clave": "fallo egr",
+        "pieza_asociada": "Válvula EGR",
+        "descripcion_regla": "Relaciona averías del sistema EGR con la pieza principal de sustitución"
+    },
+    {
+        "codigo_averia": 205,
+        "averia_clave": "fallo turbo",
+        "pieza_asociada": "Turbocompresor",
+        "descripcion_regla": "Asocia pérdida de potencia/silbidos con el turbo"
+    },
+    {
+        "codigo_averia": 219,
+        "averia_clave": "fallo sonda lambda",
+        "pieza_asociada": "Sonda lambda delantera",
+        "descripcion_regla": "Asocia problemas de mezcla/emisiones con la sonda lambda principal"
+    },
+    {
+        "codigo_averia": 315,
+        "averia_clave": "fallo inyector",
+        "pieza_asociada": "Inyector",
+        "descripcion_regla": "Asocia problemas de inyeccion con el inyector"
+    },
+    {
+        "codigo_averia": 316,
+        "averia_clave": "fallo catalizador",
+        "pieza_asociada": "Catalizador",
+        "descripcion_regla": "Asocia eficiencia baja del catalizador con sustitución del componente principal"
+    },
+    {
+        "codigo_averia": 301,
+        "averia_clave": "fallo embrague",
+        "pieza_asociada": "Kit de embrague",
+        "descripcion_regla": "Asocia desgaste o patinamiento con el kit de embrague"
+    },
+    {
+        "codigo_averia": 302,
+        "averia_clave": "fallo discos delanteros",
+        "pieza_asociada": "Disco de freno delantero",
+        "descripcion_regla": "Asocia vibración/frenada irregular con discos delanteros"
+    },
+    {
+        "codigo_averia": 200,
+        "averia_clave": "fallo bomba agua",
+        "pieza_asociada": "Bomba de agua",
+        "descripcion_regla": "Asocia problemas de circulación de refrigerante con la bomba de agua"
+    },
+    {
+        "codigo_averia": 201,
+        "averia_clave": "fallo termostato",
+        "pieza_asociada": "Termostato",
+        "descripcion_regla": "Asocia mala regulación térmica con el termostato"
+    }
+]

@@ -1,0 +1,168 @@
+[
+    {
+        "id": "e5a5138e811c1c49",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "flow_diag_principal",
+        "type": "tab",
+        "label": "Sistema de Diagnóstico",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "b7c45fcde4df52a0",
+        "type": "mongodb",
+        "hostname": "mongodb",
+        "topology": "direct",
+        "connectOptions": "",
+        "port": 27017,
+        "db": "tfg_database",
+        "name": "Conexion_TFG"
+    },
+    {
+        "id": "ui_base",
+        "type": "ui-base",
+        "name": "TFG Dashboard",
+        "path": "/dashboard",
+        "appIcon": "",
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 5,
+        "showDisconnectNotification": true,
+        "allowInstall": true
+    },
+    {
+        "id": "ui_page_diag",
+        "type": "ui-page",
+        "name": "Diagnóstico",
+        "ui": "ui_base",
+        "path": "/diagnostico",
+        "icon": "wrench",
+        "layout": "grid",
+        "theme": "",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "ui_grp_sintomas",
+        "type": "ui-group",
+        "name": "Panel de Control",
+        "page": "ui_page_diag",
+        "width": "6",
+        "height": "1",
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "3a637ce1d558ed3c",
+        "type": "ui-group",
+        "name": "Group Name",
+        "page": "",
+        "width": 6,
+        "height": 1,
+        "order": -1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "211ae7b6eff8e2b9",
+        "type": "ui-group",
+        "name": "Group Name",
+        "page": "",
+        "width": 6,
+        "height": 1,
+        "order": -1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "d72a6c7ab70ba4fd",
+        "type": "ui-group",
+        "name": "Group Name",
+        "page": "",
+        "width": 6,
+        "height": 1,
+        "order": -1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "87fcef3d545db516",
+        "type": "ui-group",
+        "name": "Group Name",
+        "page": "",
+        "width": 6,
+        "height": 1,
+        "order": -1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "022a2de0d78f86b7",
+        "type": "ui-group",
+        "name": "Group Name",
+        "page": "",
+        "width": 6,
+        "height": 1,
+        "order": -1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "d8eae954b0e323d9",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-node-mongodb": "0.2.5",
+            "@flowfuse/node-red-dashboard": "1.30.2"
+        }
+    }
+]

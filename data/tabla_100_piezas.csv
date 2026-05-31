@@ -1,0 +1,101 @@
+id_pieza,categoria,nombre_pieza,precio_base_eur,horas_mano_obra,proveedor_preferente,url_proveedor,criterio_seleccion,fecha_actualizacion
+1,Motor,Bomba de agua,28.08,0.9,Mister-Auto,https://www.mister-auto.es,mínimo precio + disponibilidad,2026-05-19
+2,Motor,Termostato,150.91,1.4,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+3,Motor,Correa de distribución,43.76,1.2,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+4,Motor,Tensor de correa,180.28,0.9,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+5,Motor,Junta de culata,280.95,1.3,Mister-Auto,https://www.mister-auto.es,mínimo precio + disponibilidad,2026-05-19
+6,Motor,Bomba de aceite,311.42,1.3,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+7,Motor,Sensor de árbol de levas,268.27,1.3,Mister-Auto,https://www.mister-auto.es,mínimo precio + disponibilidad,2026-05-19
+8,Motor,Sensor de cigüeñal,402.82,1.5,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+9,Motor,Soporte motor,164.75,1.0,RecambiosCoches,https://www.recambioscoches.es,mínimo precio + disponibilidad,2026-05-19
+10,Motor,Tapa de válvulas,387.62,1.5,RecambiosCoches,https://www.recambioscoches.es,mínimo precio + disponibilidad,2026-05-19
+11,Motor,Radiador de aceite,327.63,1.2,Mister-Auto,https://www.mister-auto.es,mínimo precio + disponibilidad,2026-05-19
+12,Motor,Turbocompresor,615.88,1.2,Mister-Auto,https://www.mister-auto.es,mínimo precio + disponibilidad,2026-05-19
+13,Motor,Colector de admisión,99.29,1.4,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+14,Motor,Cuerpo de mariposa,390.85,1.2,RecambiosCoches,https://www.recambioscoches.es,mínimo precio + disponibilidad,2026-05-19
+15,Motor,Inyector,294.18,0.9,Mister-Auto,https://www.mister-auto.es,mínimo precio + disponibilidad,2026-05-19
+16,Encendido e inyección,Bujía,238.73,0.8,RecambiosCoches,https://www.recambioscoches.es,mínimo precio + disponibilidad,2026-05-19
+17,Encendido e inyección,Bobina de encendido,40.22,1.1,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+18,Encendido e inyección,Filtro de combustible,352.26,0.8,RecambiosCoches,https://www.recambioscoches.es,mínimo precio + disponibilidad,2026-05-19
+19,Encendido e inyección,Regulador de presión de combustible,304.75,0.7,RecambiosCoches,https://www.recambioscoches.es,mínimo precio + disponibilidad,2026-05-19
+20,Encendido e inyección,Sensor de presión de rail,284.81,1.0,RecambiosCoches,https://www.recambioscoches.es,mínimo precio + disponibilidad,2026-05-19
+21,Encendido e inyección,Sensor MAF,80.98,0.7,Mister-Auto,https://www.mister-auto.es,mínimo precio + disponibilidad,2026-05-19
+22,Encendido e inyección,Sensor MAP,220.99,0.7,Mister-Auto,https://www.mister-auto.es,mínimo precio + disponibilidad,2026-05-19
+23,Encendido e inyección,Válvula EGR,351.55,0.8,Mister-Auto,https://www.mister-auto.es,mínimo precio + disponibilidad,2026-05-19
+24,Encendido e inyección,Relé de bomba de combustible,67.05,0.8,AUTODOC,https://www.autodoc.es,mínimo precio + disponibilidad,2026-05-19
+25,Encendido e inyección,Bomba de combustible,344.5,0.8,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+26,Encendido e inyección,Válvula PCV,337.79,0.8,AUTODOC,https://www.autodoc.es,mínimo precio + disponibilidad,2026-05-19
+27,Encendido e inyección,Sonda lambda delantera,409.64,0.7,RecambiosCoches,https://www.recambioscoches.es,mínimo precio + disponibilidad,2026-05-19
+28,Escape,Catalizador,249.17,1.0,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+29,Escape,Sonda lambda trasera,41.54,1.0,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+30,Escape,Silencioso trasero,227.72,0.6,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+31,Escape,Tramo intermedio de escape,357.6,0.7,AUTODOC,https://www.autodoc.es,mínimo precio + disponibilidad,2026-05-19
+32,Escape,Junta de escape,40.13,0.9,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+33,Escape,Sensor de temperatura de gases,307.16,0.7,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+34,Escape,Abrazadera de escape,406.54,0.7,AUTODOC,https://www.autodoc.es,mínimo precio + disponibilidad,2026-05-19
+35,Escape,Resonador,315.31,0.6,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+36,Refrigeración,Radiador,275.18,1.0,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+37,Refrigeración,Ventilador de radiador,329.5,1.2,Mister-Auto,https://www.mister-auto.es,mínimo precio + disponibilidad,2026-05-19
+38,Refrigeración,Deposito de expansión,281.5,1.3,RecambiosCoches,https://www.recambioscoches.es,mínimo precio + disponibilidad,2026-05-19
+39,Refrigeración,Manguito de refrigeración,364.83,0.8,AUTODOC,https://www.autodoc.es,mínimo precio + disponibilidad,2026-05-19
+40,Refrigeración,Sensor de temperatura refrigerante,58.74,0.9,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+41,Refrigeración,Electroventilador,101.65,0.8,RecambiosCoches,https://www.recambioscoches.es,mínimo precio + disponibilidad,2026-05-19
+42,Refrigeración,Tapa de radiador,43.78,1.3,RecambiosCoches,https://www.recambioscoches.es,mínimo precio + disponibilidad,2026-05-19
+43,Refrigeración,Bomba de refrigerante,10.6,0.8,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+44,Refrigeración,Termointerruptor,412.71,0.8,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+45,Refrigeración,Vaso de expansión,71.98,1.0,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+46,Frenos,Pastillas de freno delanteras,71.24,1.3,RecambiosCoches,https://www.recambioscoches.es,mínimo precio + disponibilidad,2026-05-19
+47,Frenos,Pastillas de freno traseras,402.7,0.8,Mister-Auto,https://www.mister-auto.es,mínimo precio + disponibilidad,2026-05-19
+48,Frenos,Disco de freno delantero,356.3,1.1,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+49,Frenos,Disco de freno trasero,57.6,1.0,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+50,Frenos,Pinza de freno,54.66,1.4,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+51,Frenos,Latiguillo de freno,195.13,1.3,Mister-Auto,https://www.mister-auto.es,mínimo precio + disponibilidad,2026-05-19
+52,Frenos,Sensor de desgaste de pastillas,84.03,1.2,Mister-Auto,https://www.mister-auto.es,mínimo precio + disponibilidad,2026-05-19
+53,Frenos,Bomba de freno,388.98,1.2,Mister-Auto,https://www.mister-auto.es,mínimo precio + disponibilidad,2026-05-19
+54,Frenos,Servofreno,323.43,1.3,RecambiosCoches,https://www.recambioscoches.es,mínimo precio + disponibilidad,2026-05-19
+55,Frenos,Liquido de frenos,293.1,1.4,RecambiosCoches,https://www.recambioscoches.es,mínimo precio + disponibilidad,2026-05-19
+56,Frenos,Sensor ABS,145.21,0.8,Mister-Auto,https://www.mister-auto.es,mínimo precio + disponibilidad,2026-05-19
+57,Frenos,Modulo ABS,302.06,1.4,RecambiosCoches,https://www.recambioscoches.es,mínimo precio + disponibilidad,2026-05-19
+58,Suspensión y dirección,Amortiguador delantero,404.7,1.1,Mister-Auto,https://www.mister-auto.es,mínimo precio + disponibilidad,2026-05-19
+59,Suspensión y dirección,Amortiguador trasero,346.9,0.8,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+60,Suspensión y dirección,Brazo de suspensión,251.78,1.1,AUTODOC,https://www.autodoc.es,mínimo precio + disponibilidad,2026-05-19
+61,Suspensión y dirección,Rótula de dirección,69.35,0.8,RecambiosCoches,https://www.recambioscoches.es,mínimo precio + disponibilidad,2026-05-19
+62,Suspensión y dirección,Terminal de dirección,137.59,0.9,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+63,Suspensión y dirección,Barra estabilizadora,285.34,1.1,Mister-Auto,https://www.mister-auto.es,mínimo precio + disponibilidad,2026-05-19
+64,Suspensión y dirección,Cazoleta de amortiguador,91.94,0.8,Mister-Auto,https://www.mister-auto.es,mínimo precio + disponibilidad,2026-05-19
+65,Suspensión y dirección,Silentblock,208.37,0.9,AUTODOC,https://www.autodoc.es,mínimo precio + disponibilidad,2026-05-19
+66,Suspensión y dirección,Cojinete de rueda,246.44,0.8,AUTODOC,https://www.autodoc.es,mínimo precio + disponibilidad,2026-05-19
+67,Suspensión y dirección,Muelle de suspensión,32.22,0.8,Mister-Auto,https://www.mister-auto.es,mínimo precio + disponibilidad,2026-05-19
+68,Suspensión y dirección,Sensor de ángulo de dirección,113.98,1.0,AUTODOC,https://www.autodoc.es,mínimo precio + disponibilidad,2026-05-19
+69,Suspensión y dirección,Cremallera de dirección,313.16,1.1,Mister-Auto,https://www.mister-auto.es,mínimo precio + disponibilidad,2026-05-19
+70,Electricidad y sensores,Alternador,152.36,1.0,AUTODOC,https://www.autodoc.es,mínimo precio + disponibilidad,2026-05-19
+71,Electricidad y sensores,Batería,322.75,0.7,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+72,Electricidad y sensores,Motor de arranque,208.25,0.9,Mister-Auto,https://www.mister-auto.es,mínimo precio + disponibilidad,2026-05-19
+73,Electricidad y sensores,Fusible principal,127.45,0.9,Mister-Auto,https://www.mister-auto.es,mínimo precio + disponibilidad,2026-05-19
+74,Electricidad y sensores,Caja de fusibles,193.33,0.9,Mister-Auto,https://www.mister-auto.es,mínimo precio + disponibilidad,2026-05-19
+75,Electricidad y sensores,Sensor ABS,285.7,0.8,RecambiosCoches,https://www.recambioscoches.es,mínimo precio + disponibilidad,2026-05-19
+76,Electricidad y sensores,Sensor de velocidad de rueda,151.49,1.1,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+77,Electricidad y sensores,Sensor de presión de neumáticos,114.47,0.9,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+78,Electricidad y sensores,Interruptor de pedal de freno,247.09,0.9,AUTODOC,https://www.autodoc.es,mínimo precio + disponibilidad,2026-05-19
+79,Electricidad y sensores,Interruptor de embrague,63.36,0.8,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+80,Electricidad y sensores,Conector de diagnosis OBD,399.78,0.7,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+81,Electricidad y sensores,Unidad de control ECU,364.76,0.9,Mister-Auto,https://www.mister-auto.es,mínimo precio + disponibilidad,2026-05-19
+82,Transmisión y embrague,Kit de embrague,565.43,1.3,RecambiosCoches,https://www.recambioscoches.es,mínimo precio + disponibilidad,2026-05-19
+83,Transmisión y embrague,Volante bimasa,672.85,1.0,AUTODOC,https://www.autodoc.es,mínimo precio + disponibilidad,2026-05-19
+84,Transmisión y embrague,Bomba de embrague,332.38,0.9,Mister-Auto,https://www.mister-auto.es,mínimo precio + disponibilidad,2026-05-19
+85,Transmisión y embrague,Cilindro maestro de embrague,123.18,1.4,Mister-Auto,https://www.mister-auto.es,mínimo precio + disponibilidad,2026-05-19
+86,Transmisión y embrague,Cilindro receptor de embrague,204.52,0.9,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+87,Transmisión y embrague,Palier,410.52,1.0,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+88,Transmisión y embrague,Junta homocinética,271.38,0.8,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+89,Transmisión y embrague,Soporte de caja de cambios,318.97,1.2,Mister-Auto,https://www.mister-auto.es,mínimo precio + disponibilidad,2026-05-19
+90,Transmisión y embrague,Aceite de transmisión,48.24,1.4,Mister-Auto,https://www.mister-auto.es,mínimo precio + disponibilidad,2026-05-19
+91,Climatización,Compresor de aire acondicionado,143.24,0.6,RecambiosCoches,https://www.recambioscoches.es,mínimo precio + disponibilidad,2026-05-19
+92,Climatización,Condensador de A/C,56.44,0.7,Mister-Auto,https://www.mister-auto.es,mínimo precio + disponibilidad,2026-05-19
+93,Climatización,Filtro de habitáculo,160.52,0.8,AUTODOC,https://www.autodoc.es,mínimo precio + disponibilidad,2026-05-19
+94,Climatización,Válvula de expansión,66.09,0.6,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+95,Climatización,Sensor de presión de A/C,166.26,1.0,AUTODOC,https://www.autodoc.es,mínimo precio + disponibilidad,2026-05-19
+96,Mantenimiento básico,Filtro de aceite,142.53,0.4,Mister-Auto,https://www.mister-auto.es,mínimo precio + disponibilidad,2026-05-19
+97,Mantenimiento básico,Filtro de aire,170.01,0.5,Mister-Auto,https://www.mister-auto.es,mínimo precio + disponibilidad,2026-05-19
+98,Mantenimiento básico,Escobillas limpiaparabrisas,52.47,0.6,AUTODOC,https://www.autodoc.es,mínimo precio + disponibilidad,2026-05-19
+99,Mantenimiento básico,Aceite de motor,150.1,0.5,Oscaro,https://www.oscaro.es,mínimo precio + disponibilidad,2026-05-19
+100,Mantenimiento básico,Liquido refrigerante,63.4,0.5,AUTODOC,https://www.autodoc.es,mínimo precio + disponibilidad,2026-05-19

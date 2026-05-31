@@ -1,0 +1,251 @@
+marca,modelo,averia_asociada,nombre_pieza,precio_base_eur,horas_mano_obra,tarifa_hora_eur,precio_total_estimado_eur,proveedor_preferente,compatibilidad
+BMW,3 Series,bomba combustible,aforador,310,1.0,42,352.0,Mister-Auto,verificar por motor y año
+Volvo,S90,caudalimetro,caudalímetro,310,1.5,42,373.0,RecambiosViaweb,verificar por motor y año
+Mercedes-Benz,C-Class,pastillas,pastillas de freno,220,2.0,42,304.0,Oscaro,verificar por motor y año
+Nissan,X-Trail,bobina,bobina de encendido,180,2.0,42,264.0,Eurorepar,verificar por motor y año
+BMW,X3,distribucion,kit de distribución,150,4.0,42,318.0,Mister-Auto,verificar por motor y año
+Peugeot,308,EGR,válvula EGR,220,1.2,42,270.4,Oscaro,verificar por motor y año
+Mazda,CX-5,ABS,sensor ABS,310,1.0,42,352.0,Oscaro,verificar por motor y año
+Opel,Corsa,caudalimetro,caudalímetro,65,2.0,42,149.0,Mister-Auto,verificar por motor y año
+BMW,3 Series,distribucion,kit de distribución,65,1.0,42,107.0,Oscaro,verificar por motor y año
+Hyundai,i20,ABS,sensor ABS,310,2.0,42,394.0,Oscaro,verificar por motor y año
+Jeep,Cherokee,ABS,sensor ABS,85,2.5,42,190.0,RecambiosViaweb,verificar por motor y año
+MG,HS,caudalimetro,caudalímetro,310,2.0,42,394.0,RecambiosViaweb,verificar por motor y año
+Peugeot,5008,bobina,bobina de encendido,260,2.0,42,344.0,Oscaro,verificar por motor y año
+Suzuki,S-Cross,sonda lambda,sensor oxígeno,180,1.2,42,230.4,Autodoc,verificar por motor y año
+Ford,Transit Custom,distribucion,kit de distribución,45,1.5,42,108.0,Oscaro,verificar por motor y año
+Audi,Q3,bateria,batería,180,0.7,42,209.4,Oscaro,verificar por motor y año
+Mercedes-Benz,Sprinter,distribucion,kit de distribución,85,0.7,42,114.4,Autodoc,verificar por motor y año
+BMW,4 Series,caudalimetro,caudalímetro,180,1.5,42,243.0,RecambiosViaweb,verificar por motor y año
+Skoda,Scala,caudalimetro,caudalímetro,65,2.5,42,170.0,RecambiosViaweb,verificar por motor y año
+Kia,Picanto,EGR,válvula EGR,85,1.5,42,148.0,Mister-Auto,verificar por motor y año
+Dacia,Bigster,catalizador,catalizador,120,3.0,42,246.0,RecambiosViaweb,verificar por motor y año
+Citroën,C4 X,bomba combustible,bomba de combustible,85,3.0,42,211.0,Mister-Auto,verificar por motor y año
+Toyota,Yaris,bateria,batería,120,3.0,42,246.0,Mister-Auto,verificar por motor y año
+Ford,Transit Custom,inyector,inyector,180,1.2,42,230.4,RecambiosViaweb,verificar por motor y año
+Skoda,Yeti,turbo,turbocompresor,180,1.0,42,222.0,Mister-Auto,verificar por motor y año
+Volkswagen,Arteon,catalizador,catalizador,150,4.0,42,318.0,RecambiosViaweb,verificar por motor y año
+Hyundai,H-1,ABS,sensor ABS,45,2.5,42,150.0,Oscaro,verificar por motor y año
+Honda,Jazz,bateria,batería,260,0.7,42,289.4,Autodoc,verificar por motor y año
+Mazda,CX-30,EGR,EGR,85,0.7,42,114.4,Autodoc,verificar por motor y año
+Opel,Corsa,caudalimetro,caudalímetro,180,2.0,42,264.0,Eurorepar,verificar por motor y año
+Fiat,500,bobina,bobina de encendido,85,2.5,42,190.0,Oscaro,verificar por motor y año
+Suzuki,Across,caudalimetro,MAF,150,0.7,42,179.4,Oscaro,verificar por motor y año
+Citroën,Jumper,caudalimetro,MAF,260,3.0,42,386.0,Mister-Auto,verificar por motor y año
+Opel,Astra,bobina,bobina de encendido,260,2.0,42,344.0,Autodoc,verificar por motor y año
+Ford,Galaxy,bobina,bobina de encendido,85,1.5,42,148.0,Mister-Auto,verificar por motor y año
+SEAT,Exeo,catalizador,catalizador,260,3.0,42,386.0,Oscaro,verificar por motor y año
+MG,EHS,distribucion,kit de distribución,220,1.5,42,283.0,Autodoc,verificar por motor y año
+Citroën,C-Elysée,caudalimetro,caudalímetro,310,1.5,42,373.0,Eurorepar,verificar por motor y año
+Fiat,Bravo,pastillas,pastillas de freno,85,2.0,42,169.0,Eurorepar,verificar por motor y año
+Tesla,Model 3,sonda lambda,sonda lambda,65,4.0,42,233.0,Autodoc,verificar por motor y año
+Mazda,CX-30,pastillas,pastillas de freno,260,1.5,42,323.0,Autodoc,verificar por motor y año
+Jeep,Avenger,inyector,inyector,220,2.0,42,304.0,Oscaro,verificar por motor y año
+Nissan,X-Trail,catalizador,catalizador,65,3.0,42,191.0,Oscaro,verificar por motor y año
+Mazda,CX-60,pastillas,pastillas de freno,65,2.0,42,149.0,Oscaro,verificar por motor y año
+Mazda,CX-60,pastillas,pastillas de freno,180,2.5,42,285.0,Eurorepar,verificar por motor y año
+CUPRA,Tavascan,bobina,bobina de encendido,220,1.0,42,262.0,Mister-Auto,verificar por motor y año
+Mazda,CX-60,ABS,sensor ABS,65,0.7,42,94.4,Eurorepar,verificar por motor y año
+Citroën,C3,turbo,turbo,180,3.0,42,306.0,Autodoc,verificar por motor y año
+BMW,X5,turbo,turbo,310,3.0,42,436.0,RecambiosViaweb,verificar por motor y año
+Citroën,C3 Aircross,bobina,bobina de encendido,180,1.2,42,230.4,RecambiosViaweb,verificar por motor y año
+Renault,Kadjar,bobina,bobina de encendido,120,1.0,42,162.0,Eurorepar,verificar por motor y año
+Kia,Picanto,pastillas,pastillas de freno,65,3.0,42,191.0,Eurorepar,verificar por motor y año
+Citroën,C3,distribucion,kit de distribución,65,0.7,42,94.4,RecambiosViaweb,verificar por motor y año
+Kia,Sorento,caudalimetro,MAF,85,2.0,42,169.0,Autodoc,verificar por motor y año
+Opel,Corsa,pastillas,pastillas de freno,65,1.2,42,115.4,Eurorepar,verificar por motor y año
+Peugeot,2008,turbo,turbocompresor,180,3.0,42,306.0,Oscaro,verificar por motor y año
+Fiat,Ducato,sonda lambda,sensor oxígeno,180,1.5,42,243.0,Autodoc,verificar por motor y año
+Nissan,Navara NP300,EGR,válvula EGR,45,3.0,42,171.0,Oscaro,verificar por motor y año
+Kia,Rio,catalizador,catalizador,120,0.7,42,149.4,Autodoc,verificar por motor y año
+Ford,Galaxy,distribucion,kit de distribución,310,2.5,42,415.0,Eurorepar,verificar por motor y año
+Citroën,DS3,pastillas,pastillas de freno,180,0.7,42,209.4,RecambiosViaweb,verificar por motor y año
+Nissan,Qashqai,distribucion,kit de distribución,65,2.5,42,170.0,Oscaro,verificar por motor y año
+Toyota,Hilux,bomba combustible,aforador,85,3.0,42,211.0,Eurorepar,verificar por motor y año
+Ford,Mustang,distribucion,kit de distribución,310,3.0,42,436.0,Eurorepar,verificar por motor y año
+Citroën,C4 X,inyector,inyector,260,1.2,42,310.4,Eurorepar,verificar por motor y año
+Hyundai,H-1,bomba combustible,bomba de combustible,45,1.2,42,95.4,Eurorepar,verificar por motor y año
+Ford,Puma,sonda lambda,sensor oxígeno,85,3.0,42,211.0,Mister-Auto,verificar por motor y año
+Mercedes-Benz,B-Class,inyector,inyector,120,0.7,42,149.4,RecambiosViaweb,verificar por motor y año
+Audi,A1,caudalimetro,MAF,220,0.7,42,249.4,Oscaro,verificar por motor y año
+Mazda,CX-30,EGR,EGR,45,2.0,42,129.0,Oscaro,verificar por motor y año
+Honda,Fit,ABS,sensor ABS,85,4.0,42,253.0,Autodoc,verificar por motor y año
+CUPRA,Formentor,bomba combustible,bomba de combustible,260,2.5,42,365.0,Oscaro,verificar por motor y año
+Toyota,Aygo,turbo,turbocompresor,150,4.0,42,318.0,Mister-Auto,verificar por motor y año
+CUPRA,Tavascan,caudalimetro,caudalímetro,260,2.0,42,344.0,Eurorepar,verificar por motor y año
+Volkswagen,T-Cross,caudalimetro,MAF,260,3.0,42,386.0,RecambiosViaweb,verificar por motor y año
+Suzuki,Jimny,pastillas,pastillas de freno,65,4.0,42,233.0,Eurorepar,verificar por motor y año
+Ford,Fiesta,bateria,batería,150,2.5,42,255.0,Eurorepar,verificar por motor y año
+Fiat,Tipo,caudalimetro,MAF,180,3.0,42,306.0,Mister-Auto,verificar por motor y año
+SEAT,Arosa,bobina,bobina de encendido,180,2.0,42,264.0,Eurorepar,verificar por motor y año
+BMW,4 Series,pastillas,pastillas de freno,180,4.0,42,348.0,RecambiosViaweb,verificar por motor y año
+Kia,Rio,bobina,bobina de encendido,65,0.7,42,94.4,Eurorepar,verificar por motor y año
+Toyota,Yaris,catalizador,catalizador,45,2.5,42,150.0,RecambiosViaweb,verificar por motor y año
+Kia,Sportage,catalizador,catalizador,45,3.0,42,171.0,Oscaro,verificar por motor y año
+Citroën,C5 Aircross,bobina,bobina de encendido,65,1.0,42,107.0,Mister-Auto,verificar por motor y año
+BMW,X1,turbo,turbocompresor,180,2.5,42,285.0,Autodoc,verificar por motor y año
+Toyota,RAV4,catalizador,catalizador,310,1.5,42,373.0,Oscaro,verificar por motor y año
+Citroën,C5 Aircross,bobina,bobina de encendido,310,1.5,42,373.0,Oscaro,verificar por motor y año
+Tesla,Model Y,sonda lambda,sonda lambda,180,1.2,42,230.4,Autodoc,verificar por motor y año
+Mazda,MX-5,pastillas,pastillas de freno,85,1.2,42,135.4,RecambiosViaweb,verificar por motor y año
+Dacia,Stepway,distribucion,kit de distribución,45,0.7,42,74.4,Oscaro,verificar por motor y año
+MG,Marvel R,pastillas,pastillas de freno,85,2.5,42,190.0,Eurorepar,verificar por motor y año
+SEAT,Ateca,sonda lambda,sonda lambda,65,0.7,42,94.4,Oscaro,verificar por motor y año
+Fiat,Panda,sonda lambda,sensor oxígeno,45,2.5,42,150.0,Eurorepar,verificar por motor y año
+Suzuki,Vitara,catalizador,catalizador,45,2.5,42,150.0,Mister-Auto,verificar por motor y año
+Mazda,CX-60,sonda lambda,sonda lambda,260,1.0,42,302.0,Autodoc,verificar por motor y año
+Nissan,Qashqai,ABS,sensor ABS,85,1.2,42,135.4,Eurorepar,verificar por motor y año
+Mercedes-Benz,S-Class,bateria,batería,45,1.2,42,95.4,Oscaro,verificar por motor y año
+SEAT,Mii,turbo,turbocompresor,65,0.7,42,94.4,Autodoc,verificar por motor y año
+Nissan,X-Trail,sonda lambda,sensor oxígeno,65,0.7,42,94.4,Oscaro,verificar por motor y año
+Suzuki,Swift,ABS,módulo ABS,220,2.5,42,325.0,Eurorepar,verificar por motor y año
+Suzuki,Jimny,caudalimetro,caudalímetro,65,1.2,42,115.4,Oscaro,verificar por motor y año
+MG,HS,caudalimetro,caudalímetro,260,2.0,42,344.0,Eurorepar,verificar por motor y año
+Mazda,CX-60,caudalimetro,MAF,260,1.0,42,302.0,Eurorepar,verificar por motor y año
+Volkswagen,Transporter,distribucion,kit de distribución,65,2.0,42,149.0,Autodoc,verificar por motor y año
+Jeep,Grand Cherokee,distribucion,kit de distribución,260,4.0,42,428.0,RecambiosViaweb,verificar por motor y año
+Jeep,Avenger,turbo,turbocompresor,65,1.2,42,115.4,Eurorepar,verificar por motor y año
+Ford,Focus,catalizador,catalizador,85,2.0,42,169.0,Eurorepar,verificar por motor y año
+Audi,A1,bomba combustible,aforador,65,1.2,42,115.4,Autodoc,verificar por motor y año
+Citroën,C4 X,ABS,módulo ABS,310,3.0,42,436.0,Oscaro,verificar por motor y año
+Opel,Mokka,bomba combustible,bomba de combustible,120,2.5,42,225.0,RecambiosViaweb,verificar por motor y año
+Skoda,Superb,distribucion,kit de distribución,260,2.5,42,365.0,Autodoc,verificar por motor y año
+MG,MG4,catalizador,catalizador,65,2.0,42,149.0,RecambiosViaweb,verificar por motor y año
+Mazda,CX-30,ABS,sensor ABS,45,3.0,42,171.0,RecambiosViaweb,verificar por motor y año
+Hyundai,Kona,sonda lambda,sonda lambda,65,1.5,42,128.0,Mister-Auto,verificar por motor y año
+SEAT,Ibiza,ABS,módulo ABS,45,4.0,42,213.0,Oscaro,verificar por motor y año
+Skoda,Kodiaq,pastillas,pastillas de freno,65,1.2,42,115.4,Eurorepar,verificar por motor y año
+Nissan,X-Trail,catalizador,catalizador,65,2.0,42,149.0,Oscaro,verificar por motor y año
+SEAT,Tarraco,bateria,batería,120,1.5,42,183.0,Autodoc,verificar por motor y año
+Renault,Austral,bomba combustible,bomba de combustible,85,3.0,42,211.0,Eurorepar,verificar por motor y año
+Ford,Galaxy,bateria,batería,85,1.0,42,127.0,Oscaro,verificar por motor y año
+Peugeot,208,pastillas,pastillas de freno,260,1.0,42,302.0,Autodoc,verificar por motor y año
+Toyota,Hilux,distribucion,kit de distribución,45,2.0,42,129.0,Oscaro,verificar por motor y año
+Ford,Transit Custom,turbo,turbocompresor,310,0.7,42,339.4,Mister-Auto,verificar por motor y año
+Hyundai,Elantra,distribucion,kit de distribución,180,1.2,42,230.4,Oscaro,verificar por motor y año
+Kia,Stonic,bobina,bobina de encendido,45,1.0,42,87.0,RecambiosViaweb,verificar por motor y año
+MG,MG3,bateria,batería,120,0.7,42,149.4,Eurorepar,verificar por motor y año
+Renault,Captur,turbo,turbocompresor,150,3.0,42,276.0,Autodoc,verificar por motor y año
+Kia,Carens,pastillas,pastillas de freno,220,1.5,42,283.0,RecambiosViaweb,verificar por motor y año
+Ford,Fiesta,inyector,inyector,85,1.5,42,148.0,Oscaro,verificar por motor y año
+Kia,Stonic,bobina,bobina de encendido,260,3.0,42,386.0,Oscaro,verificar por motor y año
+Fiat,Punto,EGR,EGR,150,2.0,42,234.0,RecambiosViaweb,verificar por motor y año
+Fiat,Punto,sonda lambda,sensor oxígeno,260,2.0,42,344.0,Oscaro,verificar por motor y año
+Volkswagen,Passat,turbo,turbo,220,2.5,42,325.0,Mister-Auto,verificar por motor y año
+Hyundai,i30,bomba combustible,aforador,260,1.2,42,310.4,RecambiosViaweb,verificar por motor y año
+Toyota,Prius,pastillas,pastillas de freno,120,2.5,42,225.0,Mister-Auto,verificar por motor y año
+SEAT,Ibiza,inyector,inyector,85,3.0,42,211.0,Oscaro,verificar por motor y año
+Opel,Zafira,bomba combustible,aforador,220,4.0,42,388.0,Eurorepar,verificar por motor y año
+Kia,Sorento,caudalimetro,caudalímetro,260,1.5,42,323.0,RecambiosViaweb,verificar por motor y año
+Suzuki,Ignis,bateria,batería,45,1.0,42,87.0,Mister-Auto,verificar por motor y año
+Peugeot,308,pastillas,pastillas de freno,120,1.0,42,162.0,Eurorepar,verificar por motor y año
+Nissan,Note,bobina,bobina de encendido,150,4.0,42,318.0,Eurorepar,verificar por motor y año
+Fiat,Panda,turbo,turbo,45,1.2,42,95.4,Eurorepar,verificar por motor y año
+Volkswagen,Passat,sonda lambda,sensor oxígeno,45,1.0,42,87.0,Oscaro,verificar por motor y año
+SEAT,Mii,bateria,batería,310,3.0,42,436.0,Eurorepar,verificar por motor y año
+Skoda,Fabia,EGR,válvula EGR,120,1.5,42,183.0,Autodoc,verificar por motor y año
+Renault,Mégane,inyector,inyector,45,1.2,42,95.4,Oscaro,verificar por motor y año
+MG,MG3,bobina,bobina de encendido,260,2.0,42,344.0,Oscaro,verificar por motor y año
+Volkswagen,Touran,pastillas,pastillas de freno,85,0.7,42,114.4,Eurorepar,verificar por motor y año
+Mercedes-Benz,GLC,catalizador,catalizador,120,1.2,42,170.4,RecambiosViaweb,verificar por motor y año
+CUPRA,Formentor,EGR,EGR,45,0.7,42,74.4,Autodoc,verificar por motor y año
+BMW,4 Series,ABS,sensor ABS,310,1.0,42,352.0,RecambiosViaweb,verificar por motor y año
+MG,ZS,EGR,EGR,220,1.2,42,270.4,Eurorepar,verificar por motor y año
+MG,EHS,sonda lambda,sonda lambda,310,1.0,42,352.0,Oscaro,verificar por motor y año
+Volkswagen,T-Cross,bobina,bobina de encendido,310,3.0,42,436.0,Mister-Auto,verificar por motor y año
+Honda,Civic,caudalimetro,MAF,260,4.0,42,428.0,RecambiosViaweb,verificar por motor y año
+BMW,1 Series,bobina,bobina de encendido,120,2.5,42,225.0,Autodoc,verificar por motor y año
+CUPRA,Tavascan,bomba combustible,aforador,65,1.5,42,128.0,RecambiosViaweb,verificar por motor y año
+Suzuki,Jimny,inyector,inyector,150,1.0,42,192.0,Eurorepar,verificar por motor y año
+Kia,Picanto,pastillas,pastillas de freno,150,4.0,42,318.0,Eurorepar,verificar por motor y año
+Toyota,Corolla,distribucion,kit de distribución,220,1.0,42,262.0,Autodoc,verificar por motor y año
+Toyota,Prius,distribucion,kit de distribución,310,3.0,42,436.0,Mister-Auto,verificar por motor y año
+MG,Marvel R,caudalimetro,MAF,180,4.0,42,348.0,Eurorepar,verificar por motor y año
+Dacia,Duster,EGR,EGR,180,2.0,42,264.0,Autodoc,verificar por motor y año
+BMW,3 Series,bateria,batería,45,4.0,42,213.0,Mister-Auto,verificar por motor y año
+Opel,Combo,inyector,inyector,220,1.0,42,262.0,Oscaro,verificar por motor y año
+Kia,Niro,sonda lambda,sonda lambda,180,1.5,42,243.0,Mister-Auto,verificar por motor y año
+Suzuki,Baleno,sonda lambda,sensor oxígeno,45,1.2,42,95.4,Eurorepar,verificar por motor y año
+Nissan,X-Trail,ABS,módulo ABS,85,1.0,42,127.0,RecambiosViaweb,verificar por motor y año
+Ford,Mustang,pastillas,pastillas de freno,85,3.0,42,211.0,Autodoc,verificar por motor y año
+SEAT,León,turbo,turbocompresor,45,0.7,42,74.4,Autodoc,verificar por motor y año
+Hyundai,Kona,inyector,inyector,260,1.2,42,310.4,Autodoc,verificar por motor y año
+Suzuki,Swace,catalizador,catalizador,85,0.7,42,114.4,Oscaro,verificar por motor y año
+Volvo,S60,bomba combustible,aforador,310,0.7,42,339.4,Oscaro,verificar por motor y año
+Renault,Captur,caudalimetro,MAF,260,2.5,42,365.0,RecambiosViaweb,verificar por motor y año
+Mercedes-Benz,CLA,bomba combustible,bomba de combustible,180,3.0,42,306.0,Autodoc,verificar por motor y año
+Citroën,C4,distribucion,kit de distribución,260,2.0,42,344.0,RecambiosViaweb,verificar por motor y año
+Mercedes-Benz,CLA,pastillas,pastillas de freno,180,1.2,42,230.4,Oscaro,verificar por motor y año
+Kia,Rio,EGR,EGR,220,1.5,42,283.0,Eurorepar,verificar por motor y año
+Tesla,Model S,bateria,batería,85,4.0,42,253.0,Autodoc,verificar por motor y año
+Skoda,Fabia,bobina,bobina de encendido,85,0.7,42,114.4,RecambiosViaweb,verificar por motor y año
+Dacia,Jogger,caudalimetro,MAF,85,2.0,42,169.0,Mister-Auto,verificar por motor y año
+CUPRA,Born,pastillas,pastillas de freno,85,1.5,42,148.0,Mister-Auto,verificar por motor y año
+Opel,Vivaro,bobina,bobina de encendido,45,1.0,42,87.0,Oscaro,verificar por motor y año
+Volkswagen,T-Roc,distribucion,kit de distribución,120,1.0,42,162.0,Autodoc,verificar por motor y año
+Nissan,Juke,bomba combustible,aforador,85,4.0,42,253.0,Oscaro,verificar por motor y año
+Skoda,Roomster,inyector,inyector,180,1.0,42,222.0,Mister-Auto,verificar por motor y año
+Peugeot,208,sonda lambda,sensor oxígeno,180,1.2,42,230.4,Oscaro,verificar por motor y año
+Mazda,CX-3,ABS,sensor ABS,85,4.0,42,253.0,RecambiosViaweb,verificar por motor y año
+Ford,Mondeo,EGR,EGR,150,4.0,42,318.0,Oscaro,verificar por motor y año
+Opel,Zafira,bomba combustible,aforador,85,1.5,42,148.0,Mister-Auto,verificar por motor y año
+Renault,Scenic,catalizador,catalizador,260,0.7,42,289.4,Autodoc,verificar por motor y año
+Fiat,Bravo,bateria,batería,260,3.0,42,386.0,Oscaro,verificar por motor y año
+SEAT,Tarraco,caudalimetro,caudalímetro,180,1.2,42,230.4,Oscaro,verificar por motor y año
+Renault,Mégane,bomba combustible,aforador,65,2.0,42,149.0,Eurorepar,verificar por motor y año
+Mazda,Mazda3,bateria,batería,310,4.0,42,478.0,Mister-Auto,verificar por motor y año
+Kia,Sportage,bateria,batería,180,1.2,42,230.4,Eurorepar,verificar por motor y año
+Opel,Zafira,caudalimetro,caudalímetro,45,2.0,42,129.0,Mister-Auto,verificar por motor y año
+Opel,Zafira,bobina,bobina de encendido,45,1.5,42,108.0,RecambiosViaweb,verificar por motor y año
+BMW,X5,bomba combustible,aforador,120,0.7,42,149.4,Eurorepar,verificar por motor y año
+SEAT,Ateca,bateria,batería,220,0.7,42,249.4,Eurorepar,verificar por motor y año
+Ford,Puma,EGR,válvula EGR,150,1.0,42,192.0,Mister-Auto,verificar por motor y año
+Opel,Movano,catalizador,catalizador,180,1.0,42,222.0,Autodoc,verificar por motor y año
+Mazda,CX-60,turbo,turbo,45,3.0,42,171.0,Eurorepar,verificar por motor y año
+Peugeot,5008,ABS,módulo ABS,120,1.5,42,183.0,RecambiosViaweb,verificar por motor y año
+Hyundai,i40,turbo,turbocompresor,150,2.0,42,234.0,Mister-Auto,verificar por motor y año
+Mercedes-Benz,B-Class,ABS,sensor ABS,260,1.2,42,310.4,Mister-Auto,verificar por motor y año
+MG,MG4,EGR,válvula EGR,260,1.5,42,323.0,RecambiosViaweb,verificar por motor y año
+Mazda,CX-60,caudalimetro,caudalímetro,150,2.0,42,234.0,Eurorepar,verificar por motor y año
+Hyundai,Elantra,catalizador,catalizador,65,1.2,42,115.4,RecambiosViaweb,verificar por motor y año
+Hyundai,i10,turbo,turbo,180,4.0,42,348.0,Autodoc,verificar por motor y año
+Opel,Combo,inyector,inyector,310,0.7,42,339.4,Oscaro,verificar por motor y año
+Mazda,CX-60,bobina,bobina de encendido,85,2.0,42,169.0,RecambiosViaweb,verificar por motor y año
+Hyundai,i10,turbo,turbocompresor,65,2.5,42,170.0,RecambiosViaweb,verificar por motor y año
+Audi,Q2,sonda lambda,sensor oxígeno,85,3.0,42,211.0,Oscaro,verificar por motor y año
+Suzuki,Swace,caudalimetro,MAF,45,3.0,42,171.0,Oscaro,verificar por motor y año
+Toyota,C-HR,turbo,turbocompresor,310,4.0,42,478.0,RecambiosViaweb,verificar por motor y año
+BMW,3 Series,distribucion,kit de distribución,65,1.2,42,115.4,Eurorepar,verificar por motor y año
+Honda,Accord,bateria,batería,220,2.0,42,304.0,Eurorepar,verificar por motor y año
+Suzuki,Swift,bomba combustible,aforador,150,2.5,42,255.0,Eurorepar,verificar por motor y año
+Skoda,Kamiq,EGR,válvula EGR,220,1.2,42,270.4,RecambiosViaweb,verificar por motor y año
+Kia,Niro,caudalimetro,caudalímetro,260,2.0,42,344.0,Autodoc,verificar por motor y año
+Renault,Mégane,bobina,bobina de encendido,85,0.7,42,114.4,Mister-Auto,verificar por motor y año
+Fiat,500X,inyector,inyector,260,0.7,42,289.4,Autodoc,verificar por motor y año
+Citroën,C3,ABS,sensor ABS,45,3.0,42,171.0,Mister-Auto,verificar por motor y año
+CUPRA,Formentor,EGR,EGR,85,3.0,42,211.0,Oscaro,verificar por motor y año
+Skoda,Scala,inyector,inyector,220,1.0,42,262.0,Autodoc,verificar por motor y año
+Suzuki,Baleno,sonda lambda,sensor oxígeno,310,4.0,42,478.0,Eurorepar,verificar por motor y año
+Citroën,C-Elysée,ABS,módulo ABS,150,1.2,42,200.4,Oscaro,verificar por motor y año
+Audi,Q5,ABS,módulo ABS,310,1.2,42,360.4,Mister-Auto,verificar por motor y año
+Skoda,Roomster,EGR,EGR,45,2.5,42,150.0,Mister-Auto,verificar por motor y año
+Mercedes-Benz,CLA,sonda lambda,sensor oxígeno,220,2.5,42,325.0,Mister-Auto,verificar por motor y año
+MG,MG3,inyector,inyector,85,0.7,42,114.4,Autodoc,verificar por motor y año
+Volvo,S90,catalizador,catalizador,260,2.0,42,344.0,RecambiosViaweb,verificar por motor y año
+Audi,A4,catalizador,catalizador,260,1.5,42,323.0,Oscaro,verificar por motor y año
+Renault,Mégane,distribucion,kit de distribución,85,4.0,42,253.0,Oscaro,verificar por motor y año
+Mazda,Mazda6,EGR,EGR,45,1.5,42,108.0,Autodoc,verificar por motor y año
+Citroën,C4,catalizador,catalizador,150,1.2,42,200.4,Mister-Auto,verificar por motor y año
+Nissan,Note,bateria,batería,220,2.5,42,325.0,Eurorepar,verificar por motor y año
+Volkswagen,Caddy,sonda lambda,sensor oxígeno,120,1.0,42,162.0,Eurorepar,verificar por motor y año
+Hyundai,H-1,catalizador,catalizador,220,2.5,42,325.0,Mister-Auto,verificar por motor y año
+Kia,Picanto,inyector,inyector,310,2.0,42,394.0,RecambiosViaweb,verificar por motor y año
+Audi,A4,turbo,turbo,180,1.0,42,222.0,Autodoc,verificar por motor y año
+BMW,1 Series,EGR,válvula EGR,45,1.0,42,87.0,Eurorepar,verificar por motor y año
+Audi,A4,bateria,batería,220,3.0,42,346.0,Eurorepar,verificar por motor y año
+Mazda,Mazda2,sonda lambda,sensor oxígeno,85,1.5,42,148.0,Oscaro,verificar por motor y año
+Ford,Fiesta,catalizador,catalizador,150,4.0,42,318.0,RecambiosViaweb,verificar por motor y año
+Mazda,CX-3,ABS,sensor ABS,65,2.5,42,170.0,Oscaro,verificar por motor y año
+Audi,A4,catalizador,catalizador,85,2.5,42,190.0,Autodoc,verificar por motor y año
+Toyota,Yaris,turbo,turbo,150,0.7,42,179.4,RecambiosViaweb,verificar por motor y año
+Hyundai,H-1,caudalimetro,caudalímetro,85,1.2,42,135.4,Mister-Auto,verificar por motor y año

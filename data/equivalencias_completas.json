@@ -1,0 +1,802 @@
+[
+    {
+        "codigo_averia": 101,
+        "id_pieza": 1,
+        "nombre_pieza": "Pieza_1",
+        "categoria": "Climatización",
+        "descripcion_regla": "Relaciona averías del sistema EGR con la pieza principal de sustitución",
+        "frecuencia_dataset": 48
+    },
+    {
+        "codigo_averia": 102,
+        "id_pieza": 2,
+        "nombre_pieza": "Pieza_2",
+        "categoria": "Electricidad y sensores",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 51
+    },
+    {
+        "codigo_averia": 103,
+        "id_pieza": 3,
+        "nombre_pieza": "Pieza_3",
+        "categoria": "Encendido e inyección",
+        "descripcion_regla": "Asocia problemas de mezcla/emisiones con la sonda lambda principal",
+        "frecuencia_dataset": 41
+    },
+    {
+        "codigo_averia": 104,
+        "id_pieza": 4,
+        "nombre_pieza": "Pieza_4",
+        "categoria": "Escape",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 47
+    },
+    {
+        "codigo_averia": 105,
+        "id_pieza": 5,
+        "nombre_pieza": "Pieza_5",
+        "categoria": "Frenos",
+        "descripcion_regla": "Asocia eficiencia baja del catalizador con sustitución del componente principal",
+        "frecuencia_dataset": 45
+    },
+    {
+        "codigo_averia": 106,
+        "id_pieza": 6,
+        "nombre_pieza": "Pieza_6",
+        "categoria": "Mantenimiento básico",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 58
+    },
+    {
+        "codigo_averia": 107,
+        "id_pieza": 7,
+        "nombre_pieza": "Pieza_7",
+        "categoria": "Motor",
+        "descripcion_regla": "Asocia problemas de alimentación con la bomba",
+        "frecuencia_dataset": 48
+    },
+    {
+        "codigo_averia": 108,
+        "id_pieza": 8,
+        "nombre_pieza": "Pieza_8",
+        "categoria": "Refrigeración",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 51
+    },
+    {
+        "codigo_averia": 109,
+        "id_pieza": 9,
+        "nombre_pieza": "Pieza_9",
+        "categoria": "Suspensión y dirección",
+        "descripcion_regla": "Asocia fallo eléctrico de alimentación con el relé",
+        "frecuencia_dataset": 41
+    },
+    {
+        "codigo_averia": 110,
+        "id_pieza": 10,
+        "nombre_pieza": "Pieza_10",
+        "categoria": "Transmisión y embrague",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 47
+    },
+    {
+        "codigo_averia": 111,
+        "id_pieza": 1,
+        "nombre_pieza": "Pieza_1",
+        "categoria": "Climatización",
+        "descripcion_regla": "Relaciona averías del sistema EGR con la pieza principal de sustitución",
+        "frecuencia_dataset": 51
+    },
+    {
+        "codigo_averia": 112,
+        "id_pieza": 2,
+        "nombre_pieza": "Pieza_2",
+        "categoria": "Electricidad y sensores",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 61
+    },
+    {
+        "codigo_averia": 113,
+        "id_pieza": 3,
+        "nombre_pieza": "Pieza_3",
+        "categoria": "Encendido e inyección",
+        "descripcion_regla": "Asocia problemas de mezcla/emisiones con la sonda lambda principal",
+        "frecuencia_dataset": 44
+    },
+    {
+        "codigo_averia": 114,
+        "id_pieza": 4,
+        "nombre_pieza": "Pieza_4",
+        "categoria": "Escape",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 49
+    },
+    {
+        "codigo_averia": 115,
+        "id_pieza": 5,
+        "nombre_pieza": "Pieza_5",
+        "categoria": "Frenos",
+        "descripcion_regla": "Asocia eficiencia baja del catalizador con sustitución del componente principal",
+        "frecuencia_dataset": 61
+    },
+    {
+        "codigo_averia": 116,
+        "id_pieza": 6,
+        "nombre_pieza": "Pieza_6",
+        "categoria": "Mantenimiento básico",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 44
+    },
+    {
+        "codigo_averia": 117,
+        "id_pieza": 7,
+        "nombre_pieza": "Pieza_7",
+        "categoria": "Motor",
+        "descripcion_regla": "Asocia problemas de alimentación con la bomba",
+        "frecuencia_dataset": 52
+    },
+    {
+        "codigo_averia": 118,
+        "id_pieza": 8,
+        "nombre_pieza": "Pieza_8",
+        "categoria": "Refrigeración",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 57
+    },
+    {
+        "codigo_averia": 119,
+        "id_pieza": 9,
+        "nombre_pieza": "Pieza_9",
+        "categoria": "Suspensión y dirección",
+        "descripcion_regla": "Asocia fallo eléctrico de alimentación con el relé",
+        "frecuencia_dataset": 57
+    },
+    {
+        "codigo_averia": 120,
+        "id_pieza": 10,
+        "nombre_pieza": "Pieza_10",
+        "categoria": "Transmisión y embrague",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 54
+    },
+    {
+        "codigo_averia": 201,
+        "id_pieza": 1,
+        "nombre_pieza": "Pieza_1",
+        "categoria": "Climatización",
+        "descripcion_regla": "Relaciona averías del sistema EGR con la pieza principal de sustitución",
+        "frecuencia_dataset": 51
+    },
+    {
+        "codigo_averia": 202,
+        "id_pieza": 2,
+        "nombre_pieza": "Pieza_2",
+        "categoria": "Electricidad y sensores",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 55
+    },
+    {
+        "codigo_averia": 203,
+        "id_pieza": 3,
+        "nombre_pieza": "Pieza_3",
+        "categoria": "Encendido e inyección",
+        "descripcion_regla": "Asocia problemas de mezcla/emisiones con la sonda lambda principal",
+        "frecuencia_dataset": 42
+    },
+    {
+        "codigo_averia": 204,
+        "id_pieza": 4,
+        "nombre_pieza": "Pieza_4",
+        "categoria": "Escape",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 50
+    },
+    {
+        "codigo_averia": 205,
+        "id_pieza": 5,
+        "nombre_pieza": "Pieza_5",
+        "categoria": "Frenos",
+        "descripcion_regla": "Asocia eficiencia baja del catalizador con sustitución del componente principal",
+        "frecuencia_dataset": 60
+    },
+    {
+        "codigo_averia": 206,
+        "id_pieza": 6,
+        "nombre_pieza": "Pieza_6",
+        "categoria": "Mantenimiento básico",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 51
+    },
+    {
+        "codigo_averia": 207,
+        "id_pieza": 7,
+        "nombre_pieza": "Pieza_7",
+        "categoria": "Motor",
+        "descripcion_regla": "Asocia problemas de alimentación con la bomba",
+        "frecuencia_dataset": 58
+    },
+    {
+        "codigo_averia": 208,
+        "id_pieza": 8,
+        "nombre_pieza": "Pieza_8",
+        "categoria": "Refrigeración",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 54
+    },
+    {
+        "codigo_averia": 209,
+        "id_pieza": 9,
+        "nombre_pieza": "Pieza_9",
+        "categoria": "Suspensión y dirección",
+        "descripcion_regla": "Asocia fallo eléctrico de alimentación con el relé",
+        "frecuencia_dataset": 39
+    },
+    {
+        "codigo_averia": 210,
+        "id_pieza": 10,
+        "nombre_pieza": "Pieza_10",
+        "categoria": "Transmisión y embrague",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 50
+    },
+    {
+        "codigo_averia": 211,
+        "id_pieza": 1,
+        "nombre_pieza": "Pieza_1",
+        "categoria": "Climatización",
+        "descripcion_regla": "Relaciona averías del sistema EGR con la pieza principal de sustitución",
+        "frecuencia_dataset": 65
+    },
+    {
+        "codigo_averia": 212,
+        "id_pieza": 2,
+        "nombre_pieza": "Pieza_2",
+        "categoria": "Electricidad y sensores",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 51
+    },
+    {
+        "codigo_averia": 213,
+        "id_pieza": 3,
+        "nombre_pieza": "Pieza_3",
+        "categoria": "Encendido e inyección",
+        "descripcion_regla": "Asocia problemas de mezcla/emisiones con la sonda lambda principal",
+        "frecuencia_dataset": 50
+    },
+    {
+        "codigo_averia": 214,
+        "id_pieza": 4,
+        "nombre_pieza": "Pieza_4",
+        "categoria": "Escape",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 49
+    },
+    {
+        "codigo_averia": 215,
+        "id_pieza": 5,
+        "nombre_pieza": "Pieza_5",
+        "categoria": "Frenos",
+        "descripcion_regla": "Asocia eficiencia baja del catalizador con sustitución del componente principal",
+        "frecuencia_dataset": 49
+    },
+    {
+        "codigo_averia": 216,
+        "id_pieza": 6,
+        "nombre_pieza": "Pieza_6",
+        "categoria": "Mantenimiento básico",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 52
+    },
+    {
+        "codigo_averia": 217,
+        "id_pieza": 7,
+        "nombre_pieza": "Pieza_7",
+        "categoria": "Motor",
+        "descripcion_regla": "Asocia problemas de alimentación con la bomba",
+        "frecuencia_dataset": 50
+    },
+    {
+        "codigo_averia": 218,
+        "id_pieza": 8,
+        "nombre_pieza": "Pieza_8",
+        "categoria": "Refrigeración",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 53
+    },
+    {
+        "codigo_averia": 219,
+        "id_pieza": 9,
+        "nombre_pieza": "Pieza_9",
+        "categoria": "Suspensión y dirección",
+        "descripcion_regla": "Asocia fallo eléctrico de alimentación con el relé",
+        "frecuencia_dataset": 57
+    },
+    {
+        "codigo_averia": 220,
+        "id_pieza": 10,
+        "nombre_pieza": "Pieza_10",
+        "categoria": "Transmisión y embrague",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 39
+    },
+    {
+        "codigo_averia": 301,
+        "id_pieza": 1,
+        "nombre_pieza": "Pieza_1",
+        "categoria": "Climatización",
+        "descripcion_regla": "Relaciona averías del sistema EGR con la pieza principal de sustitución",
+        "frecuencia_dataset": 47
+    },
+    {
+        "codigo_averia": 302,
+        "id_pieza": 2,
+        "nombre_pieza": "Pieza_2",
+        "categoria": "Electricidad y sensores",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 49
+    },
+    {
+        "codigo_averia": 303,
+        "id_pieza": 3,
+        "nombre_pieza": "Pieza_3",
+        "categoria": "Encendido e inyección",
+        "descripcion_regla": "Asocia problemas de mezcla/emisiones con la sonda lambda principal",
+        "frecuencia_dataset": 43
+    },
+    {
+        "codigo_averia": 304,
+        "id_pieza": 4,
+        "nombre_pieza": "Pieza_4",
+        "categoria": "Escape",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 49
+    },
+    {
+        "codigo_averia": 305,
+        "id_pieza": 5,
+        "nombre_pieza": "Pieza_5",
+        "categoria": "Frenos",
+        "descripcion_regla": "Asocia eficiencia baja del catalizador con sustitución del componente principal",
+        "frecuencia_dataset": 41
+    },
+    {
+        "codigo_averia": 306,
+        "id_pieza": 6,
+        "nombre_pieza": "Pieza_6",
+        "categoria": "Mantenimiento básico",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 47
+    },
+    {
+        "codigo_averia": 307,
+        "id_pieza": 7,
+        "nombre_pieza": "Pieza_7",
+        "categoria": "Motor",
+        "descripcion_regla": "Asocia problemas de alimentación con la bomba",
+        "frecuencia_dataset": 58
+    },
+    {
+        "codigo_averia": 308,
+        "id_pieza": 8,
+        "nombre_pieza": "Pieza_8",
+        "categoria": "Refrigeración",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 43
+    },
+    {
+        "codigo_averia": 309,
+        "id_pieza": 9,
+        "nombre_pieza": "Pieza_9",
+        "categoria": "Suspensión y dirección",
+        "descripcion_regla": "Asocia fallo eléctrico de alimentación con el relé",
+        "frecuencia_dataset": 38
+    },
+    {
+        "codigo_averia": 310,
+        "id_pieza": 10,
+        "nombre_pieza": "Pieza_10",
+        "categoria": "Transmisión y embrague",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 52
+    },
+    {
+        "codigo_averia": 311,
+        "id_pieza": 1,
+        "nombre_pieza": "Pieza_1",
+        "categoria": "Climatización",
+        "descripcion_regla": "Relaciona averías del sistema EGR con la pieza principal de sustitución",
+        "frecuencia_dataset": 43
+    },
+    {
+        "codigo_averia": 312,
+        "id_pieza": 2,
+        "nombre_pieza": "Pieza_2",
+        "categoria": "Electricidad y sensores",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 58
+    },
+    {
+        "codigo_averia": 313,
+        "id_pieza": 3,
+        "nombre_pieza": "Pieza_3",
+        "categoria": "Encendido e inyección",
+        "descripcion_regla": "Asocia problemas de mezcla/emisiones con la sonda lambda principal",
+        "frecuencia_dataset": 49
+    },
+    {
+        "codigo_averia": 314,
+        "id_pieza": 4,
+        "nombre_pieza": "Pieza_4",
+        "categoria": "Escape",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 50
+    },
+    {
+        "codigo_averia": 315,
+        "id_pieza": 5,
+        "nombre_pieza": "Pieza_5",
+        "categoria": "Frenos",
+        "descripcion_regla": "Asocia eficiencia baja del catalizador con sustitución del componente principal",
+        "frecuencia_dataset": 49
+    },
+    {
+        "codigo_averia": 316,
+        "id_pieza": 6,
+        "nombre_pieza": "Pieza_6",
+        "categoria": "Mantenimiento básico",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 51
+    },
+    {
+        "codigo_averia": 317,
+        "id_pieza": 7,
+        "nombre_pieza": "Pieza_7",
+        "categoria": "Motor",
+        "descripcion_regla": "Asocia problemas de alimentación con la bomba",
+        "frecuencia_dataset": 56
+    },
+    {
+        "codigo_averia": 318,
+        "id_pieza": 8,
+        "nombre_pieza": "Pieza_8",
+        "categoria": "Refrigeración",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 44
+    },
+    {
+        "codigo_averia": 319,
+        "id_pieza": 9,
+        "nombre_pieza": "Pieza_9",
+        "categoria": "Suspensión y dirección",
+        "descripcion_regla": "Asocia fallo eléctrico de alimentación con el relé",
+        "frecuencia_dataset": 50
+    },
+    {
+        "codigo_averia": 320,
+        "id_pieza": 10,
+        "nombre_pieza": "Pieza_10",
+        "categoria": "Transmisión y embrague",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 44
+    },
+    {
+        "codigo_averia": 401,
+        "id_pieza": 1,
+        "nombre_pieza": "Pieza_1",
+        "categoria": "Climatización",
+        "descripcion_regla": "Relaciona averías del sistema EGR con la pieza principal de sustitución",
+        "frecuencia_dataset": 58
+    },
+    {
+        "codigo_averia": 402,
+        "id_pieza": 2,
+        "nombre_pieza": "Pieza_2",
+        "categoria": "Electricidad y sensores",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 60
+    },
+    {
+        "codigo_averia": 403,
+        "id_pieza": 3,
+        "nombre_pieza": "Pieza_3",
+        "categoria": "Encendido e inyección",
+        "descripcion_regla": "Asocia problemas de mezcla/emisiones con la sonda lambda principal",
+        "frecuencia_dataset": 37
+    },
+    {
+        "codigo_averia": 404,
+        "id_pieza": 4,
+        "nombre_pieza": "Pieza_4",
+        "categoria": "Escape",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 52
+    },
+    {
+        "codigo_averia": 405,
+        "id_pieza": 5,
+        "nombre_pieza": "Pieza_5",
+        "categoria": "Frenos",
+        "descripcion_regla": "Asocia eficiencia baja del catalizador con sustitución del componente principal",
+        "frecuencia_dataset": 39
+    },
+    {
+        "codigo_averia": 406,
+        "id_pieza": 6,
+        "nombre_pieza": "Pieza_6",
+        "categoria": "Mantenimiento básico",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 50
+    },
+    {
+        "codigo_averia": 407,
+        "id_pieza": 7,
+        "nombre_pieza": "Pieza_7",
+        "categoria": "Motor",
+        "descripcion_regla": "Asocia problemas de alimentación con la bomba",
+        "frecuencia_dataset": 58
+    },
+    {
+        "codigo_averia": 408,
+        "id_pieza": 8,
+        "nombre_pieza": "Pieza_8",
+        "categoria": "Refrigeración",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 54
+    },
+    {
+        "codigo_averia": 409,
+        "id_pieza": 9,
+        "nombre_pieza": "Pieza_9",
+        "categoria": "Suspensión y dirección",
+        "descripcion_regla": "Asocia fallo eléctrico de alimentación con el relé",
+        "frecuencia_dataset": 58
+    },
+    {
+        "codigo_averia": 410,
+        "id_pieza": 10,
+        "nombre_pieza": "Pieza_10",
+        "categoria": "Transmisión y embrague",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 39
+    },
+    {
+        "codigo_averia": 411,
+        "id_pieza": 1,
+        "nombre_pieza": "Pieza_1",
+        "categoria": "Climatización",
+        "descripcion_regla": "Relaciona averías del sistema EGR con la pieza principal de sustitución",
+        "frecuencia_dataset": 43
+    },
+    {
+        "codigo_averia": 412,
+        "id_pieza": 2,
+        "nombre_pieza": "Pieza_2",
+        "categoria": "Electricidad y sensores",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 52
+    },
+    {
+        "codigo_averia": 413,
+        "id_pieza": 3,
+        "nombre_pieza": "Pieza_3",
+        "categoria": "Encendido e inyección",
+        "descripcion_regla": "Asocia problemas de mezcla/emisiones con la sonda lambda principal",
+        "frecuencia_dataset": 49
+    },
+    {
+        "codigo_averia": 414,
+        "id_pieza": 4,
+        "nombre_pieza": "Pieza_4",
+        "categoria": "Escape",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 51
+    },
+    {
+        "codigo_averia": 415,
+        "id_pieza": 5,
+        "nombre_pieza": "Pieza_5",
+        "categoria": "Frenos",
+        "descripcion_regla": "Asocia eficiencia baja del catalizador con sustitución del componente principal",
+        "frecuencia_dataset": 47
+    },
+    {
+        "codigo_averia": 416,
+        "id_pieza": 6,
+        "nombre_pieza": "Pieza_6",
+        "categoria": "Mantenimiento básico",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 60
+    },
+    {
+        "codigo_averia": 417,
+        "id_pieza": 7,
+        "nombre_pieza": "Pieza_7",
+        "categoria": "Motor",
+        "descripcion_regla": "Asocia problemas de alimentación con la bomba",
+        "frecuencia_dataset": 52
+    },
+    {
+        "codigo_averia": 418,
+        "id_pieza": 8,
+        "nombre_pieza": "Pieza_8",
+        "categoria": "Refrigeración",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 48
+    },
+    {
+        "codigo_averia": 419,
+        "id_pieza": 9,
+        "nombre_pieza": "Pieza_9",
+        "categoria": "Suspensión y dirección",
+        "descripcion_regla": "Asocia fallo eléctrico de alimentación con el relé",
+        "frecuencia_dataset": 51
+    },
+    {
+        "codigo_averia": 420,
+        "id_pieza": 10,
+        "nombre_pieza": "Pieza_10",
+        "categoria": "Transmisión y embrague",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 55
+    },
+    {
+        "codigo_averia": 501,
+        "id_pieza": 1,
+        "nombre_pieza": "Pieza_1",
+        "categoria": "Climatización",
+        "descripcion_regla": "Relaciona averías del sistema EGR con la pieza principal de sustitución",
+        "frecuencia_dataset": 53
+    },
+    {
+        "codigo_averia": 502,
+        "id_pieza": 2,
+        "nombre_pieza": "Pieza_2",
+        "categoria": "Electricidad y sensores",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 44
+    },
+    {
+        "codigo_averia": 503,
+        "id_pieza": 3,
+        "nombre_pieza": "Pieza_3",
+        "categoria": "Encendido e inyección",
+        "descripcion_regla": "Asocia problemas de mezcla/emisiones con la sonda lambda principal",
+        "frecuencia_dataset": 48
+    },
+    {
+        "codigo_averia": 504,
+        "id_pieza": 4,
+        "nombre_pieza": "Pieza_4",
+        "categoria": "Escape",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 53
+    },
+    {
+        "codigo_averia": 505,
+        "id_pieza": 5,
+        "nombre_pieza": "Pieza_5",
+        "categoria": "Frenos",
+        "descripcion_regla": "Asocia eficiencia baja del catalizador con sustitución del componente principal",
+        "frecuencia_dataset": 55
+    },
+    {
+        "codigo_averia": 506,
+        "id_pieza": 6,
+        "nombre_pieza": "Pieza_6",
+        "categoria": "Mantenimiento básico",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 51
+    },
+    {
+        "codigo_averia": 507,
+        "id_pieza": 7,
+        "nombre_pieza": "Pieza_7",
+        "categoria": "Motor",
+        "descripcion_regla": "Asocia problemas de alimentación con la bomba",
+        "frecuencia_dataset": 55
+    },
+    {
+        "codigo_averia": 508,
+        "id_pieza": 8,
+        "nombre_pieza": "Pieza_8",
+        "categoria": "Refrigeración",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 42
+    },
+    {
+        "codigo_averia": 509,
+        "id_pieza": 9,
+        "nombre_pieza": "Pieza_9",
+        "categoria": "Suspensión y dirección",
+        "descripcion_regla": "Asocia fallo eléctrico de alimentación con el relé",
+        "frecuencia_dataset": 56
+    },
+    {
+        "codigo_averia": 510,
+        "id_pieza": 10,
+        "nombre_pieza": "Pieza_10",
+        "categoria": "Transmisión y embrague",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 46
+    },
+    {
+        "codigo_averia": 511,
+        "id_pieza": 1,
+        "nombre_pieza": "Pieza_1",
+        "categoria": "Climatización",
+        "descripcion_regla": "Relaciona averías del sistema EGR con la pieza principal de sustitución",
+        "frecuencia_dataset": 41
+    },
+    {
+        "codigo_averia": 512,
+        "id_pieza": 2,
+        "nombre_pieza": "Pieza_2",
+        "categoria": "Electricidad y sensores",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 60
+    },
+    {
+        "codigo_averia": 513,
+        "id_pieza": 3,
+        "nombre_pieza": "Pieza_3",
+        "categoria": "Encendido e inyección",
+        "descripcion_regla": "Asocia problemas de mezcla/emisiones con la sonda lambda principal",
+        "frecuencia_dataset": 48
+    },
+    {
+        "codigo_averia": 514,
+        "id_pieza": 4,
+        "nombre_pieza": "Pieza_4",
+        "categoria": "Escape",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 53
+    },
+    {
+        "codigo_averia": 515,
+        "id_pieza": 5,
+        "nombre_pieza": "Pieza_5",
+        "categoria": "Frenos",
+        "descripcion_regla": "Asocia eficiencia baja del catalizador con sustitución del componente principal",
+        "frecuencia_dataset": 51
+    },
+    {
+        "codigo_averia": 516,
+        "id_pieza": 6,
+        "nombre_pieza": "Pieza_6",
+        "categoria": "Mantenimiento básico",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 46
+    },
+    {
+        "codigo_averia": 517,
+        "id_pieza": 7,
+        "nombre_pieza": "Pieza_7",
+        "categoria": "Motor",
+        "descripcion_regla": "Asocia problemas de alimentación con la bomba",
+        "frecuencia_dataset": 36
+    },
+    {
+        "codigo_averia": 518,
+        "id_pieza": 8,
+        "nombre_pieza": "Pieza_8",
+        "categoria": "Refrigeración",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 46
+    },
+    {
+        "codigo_averia": 519,
+        "id_pieza": 9,
+        "nombre_pieza": "Pieza_9",
+        "categoria": "Suspensión y dirección",
+        "descripcion_regla": "Asocia fallo eléctrico de alimentación con el relé",
+        "frecuencia_dataset": 55
+    },
+    {
+        "codigo_averia": 520,
+        "id_pieza": 10,
+        "nombre_pieza": "Pieza_10",
+        "categoria": "Transmisión y embrague",
+        "descripcion_regla": "Alias de búsqueda simplificado",
+        "frecuencia_dataset": 55
+    }
+]

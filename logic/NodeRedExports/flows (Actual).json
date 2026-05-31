@@ -1,0 +1,494 @@
+[
+    {
+        "id": "350e37389b9f29b3",
+        "type": "tab",
+        "label": "Sistema de Diagnóstico",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "2ef73bc17db3c42d",
+        "type": "ui-form",
+        "z": "350e37389b9f29b3",
+        "name": "Formulario diagnóstico",
+        "group": "8fa4ca9f821dda60",
+        "label": "Entrada de datos del vehículo",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Cliente",
+                "key": "cliente",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Matrícula",
+                "key": "matricula",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Marca",
+                "key": "marca",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Modelo",
+                "key": "modelo",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Motor",
+                "key": "motor",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Año",
+                "key": "anio",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Código DTC",
+                "key": "codigo_dtc",
+                "type": "text",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Síntoma",
+                "key": "sintoma",
+                "type": "multiline",
+                "required": true,
+                "rows": 3
+            },
+            {
+                "label": "Observaciones",
+                "key": "observaciones",
+                "type": "multiline",
+                "required": false,
+                "rows": 3
+            }
+        ],
+        "formValue": {
+            "cliente": "",
+            "matricula": "",
+            "marca": "",
+            "modelo": "",
+            "motor": "",
+            "anio": "",
+            "codigo_dtc": "",
+            "sintoma": "",
+            "observaciones": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "clear",
+        "resetOnSubmit": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "passthru": false,
+        "dropdownOptions": [],
+        "x": 120,
+        "y": 220,
+        "wires": [
+            [
+                "3a17fb6401f427fb"
+            ]
+        ]
+    },
+    {
+        "id": "f1be506d17389dd4",
+        "type": "debug",
+        "z": "350e37389b9f29b3",
+        "name": "sda diagnóstico",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "3a17fb6401f427fb",
+        "type": "function",
+        "z": "350e37389b9f29b3",
+        "name": "function 1",
+        "func": "let marca = msg.payload.marca;\nlet modelo = msg.payload.modelo;\nlet sintoma = msg.payload.sintoma;\n\nif (!marca || marca.trim() === \"\" ||\n    !modelo || modelo.trim() === \"\" ||\n    !sintoma || sintoma.trim() === \"\") {\n    return null;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 120,
+        "wires": [
+            [
+                "4e3081b14c902444",
+                "c9da243d359a84e7"
+            ]
+        ]
+    },
+    {
+        "id": "4d61bc2fa5d12ed8",
+        "type": "mongodb out",
+        "z": "350e37389b9f29b3",
+        "mongodb": "b7c45fcde4df52a0",
+        "name": "Guardar Averias",
+        "collection": "averias",
+        "payonly": true,
+        "upsert": false,
+        "multi": false,
+        "operation": "insert",
+        "x": 880,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "abaa0344608ed0dd",
+        "type": "ui-notification",
+        "z": "350e37389b9f29b3",
+        "ui": "ui_base",
+        "position": "top right",
+        "colorDefault": true,
+        "color": "#000000",
+        "displayTime": "0",
+        "showCountdown": true,
+        "outputs": 1,
+        "allowDismiss": true,
+        "dismissText": "Close",
+        "allowConfirm": false,
+        "confirmText": "Confirm",
+        "raw": true,
+        "className": "",
+        "name": "Resultado Aviso",
+        "x": 840,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4e3081b14c902444",
+        "type": "function",
+        "z": "350e37389b9f29b3",
+        "name": "Diagnostico 1",
+        "func": "let marca = (msg.payload.marca || \"\").toLowerCase().trim();\nlet modelo = (msg.payload.modelo || \"\").toLowerCase().trim();\nlet s = (msg.payload.sintoma || \"\").toLowerCase().trim();\n\nlet resultados = [];\n\n// SÍNTOMAS\nif (s.includes(\"humo negro\")) {\n    resultados.push({\n        tipo: \"síntoma\",\n        codigo: null,\n        diagnostico: \"Posible mezcla rica o problema de inyección\",\n        prioridad: \"media\",\n        recomendacion: \"Revisar inyectores, filtro de aire y sistema de admisión\"\n    });\n}\n\nif (s.includes(\"humo blanco\")) {\n    resultados.push({\n        tipo: \"síntoma\",\n        codigo: null,\n        diagnostico: \"Posible entrada de refrigerante en la combustión\",\n        prioridad: \"alta\",\n        recomendacion: \"Comprobar junta de culata, nivel de refrigerante y estanqueidad del circuito\"\n    });\n}\n\nif (s.includes(\"humo azul\")) {\n    resultados.push({\n        tipo: \"síntoma\",\n        codigo: null,\n        diagnostico: \"Posible consumo de aceite por desgaste interno\",\n        prioridad: \"media\",\n        recomendacion: \"Revisar segmentos, retenes de válvula y nivel de aceite\"\n    });\n}\n\nif (s.includes(\"fuga de aceite\")) {\n    resultados.push({\n        tipo: \"síntoma\",\n        codigo: null,\n        diagnostico: \"Posible fuga en juntas o retenes\",\n        prioridad: \"media\",\n        recomendacion: \"Inspeccionar cárter, tapa de balancines, retenes y zonas de sellado\"\n    });\n}\n\nif (s.includes(\"perdida de potencia\") || s.includes(\"pérdida de potencia\")) {\n    resultados.push({\n        tipo: \"síntoma\",\n        codigo: null,\n        diagnostico: \"Posible fallo en admisión, turbo o alimentación\",\n        prioridad: \"alta\",\n        recomendacion: \"Revisar turbo, caudalímetro, filtro de combustible y presión de admisión\"\n    });\n}\n\nif (s.includes(\"tirones\")) {\n    resultados.push({\n        tipo: \"síntoma\",\n        codigo: null,\n        diagnostico: \"Posible fallo de combustión o alimentación\",\n        prioridad: \"media\",\n        recomendacion: \"Comprobar bujías, bobinas, inyectores o suministro de combustible\"\n    });\n}\n\nif (s.includes(\"vibracion\") || s.includes(\"vibración\")) {\n    resultados.push({\n        tipo: \"síntoma\",\n        codigo: null,\n        diagnostico: \"Posible desequilibrio mecánico o problema de frenos/suspensión\",\n        prioridad: \"media\",\n        recomendacion: \"Revisar ruedas, discos, soportes y elementos de suspensión\"\n    });\n}\n\nif (s.includes(\"silbido turbo\")) {\n    resultados.push({\n        tipo: \"síntoma\",\n        codigo: null,\n        diagnostico: \"Posible fuga o desgaste en el sistema de sobrealimentación\",\n        prioridad: \"alta\",\n        recomendacion: \"Inspeccionar manguitos, turbo e intercooler\"\n    });\n}\n\nif (s.includes(\"testigo motor\") || s.includes(\"check engine\")) {\n    resultados.push({\n        tipo: \"síntoma\",\n        codigo: null,\n        diagnostico: \"Avería electrónica o de emisiones pendiente de lectura DTC\",\n        prioridad: \"media\",\n        recomendacion: \"Leer códigos OBD-II y relacionarlos con la base de conocimiento\"\n    });\n}\n\nif (s.includes(\"no arranca\")) {\n    resultados.push({\n        tipo: \"síntoma\",\n        codigo: null,\n        diagnostico: \"Posible fallo de batería, arranque o alimentación\",\n        prioridad: \"alta\",\n        recomendacion: \"Comprobar batería, motor de arranque, fusibles y suministro de combustible\"\n    });\n}\n\n// CÓDIGOS DTC\nif (s.includes(\"p0300\")) {\n    resultados.push({\n        tipo: \"DTC\",\n        codigo: \"P0300\",\n        diagnostico: \"Fallos de encendido aleatorios o múltiples detectados\",\n        prioridad: \"alta\",\n        recomendacion: \"Revisar bujías, bobinas, inyectores, admisión y compresión\"\n    });\n}\n\nif (s.includes(\"p0171\")) {\n    resultados.push({\n        tipo: \"DTC\",\n        codigo: \"P0171\",\n        diagnostico: \"Mezcla demasiado pobre en banco 1\",\n        prioridad: \"alta\",\n        recomendacion: \"Comprobar fugas de admisión, caudalímetro, presión de combustible e inyectores\"\n    });\n}\n\nif (s.includes(\"p0401\")) {\n    resultados.push({\n        tipo: \"DTC\",\n        codigo: \"P0401\",\n        diagnostico: \"Flujo insuficiente en el sistema EGR\",\n        prioridad: \"media\",\n        recomendacion: \"Revisar válvula EGR, conductos y posible acumulación de carbonilla\"\n    });\n}\n\nif (s.includes(\"p0420\")) {\n    resultados.push({\n        tipo: \"DTC\",\n        codigo: \"P0420\",\n        diagnostico: \"Eficiencia del catalizador por debajo del umbral\",\n        prioridad: \"media\",\n        recomendacion: \"Comprobar catalizador, sonda lambda y posibles fallos previos de combustión\"\n    });\n}\n\nif (resultados.length === 0) {\n    resultados.push({\n        tipo: \"desconocido\",\n        codigo: null,\n        diagnostico: \"Avería no identificada con la regla actual\",\n        prioridad: \"revisar\",\n        recomendacion: \"Añadir más síntomas o consultar códigos DTC para afinar el diagnóstico\"\n    });\n}\n\nmsg.payload = {\n    marca: marca,\n    modelo: modelo,\n    entrada: msg.payload.sintoma,\n    resultados: resultados\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 120,
+        "wires": [
+            [
+                "f1be506d17389dd4",
+                "f0d2e47c4883dc7d",
+                "4d01f2abf0c20b88"
+            ]
+        ]
+    },
+    {
+        "id": "f0d2e47c4883dc7d",
+        "type": "function",
+        "z": "350e37389b9f29b3",
+        "name": "Aviso",
+        "func": "let html = \"<div style='white-space: normal; line-height:1.5;'>\";\n\nhtml += \"<h3 style='margin:0 0 10px 0;'>RESULTADO DEL DIAGNÓSTICO</h3>\";\n\nmsg.payload.resultados.forEach((r, i) => {\n    html += \"<div style='margin-bottom:16px; padding-bottom:12px; border-bottom:1px solid #ccc;'>\";\n    html += \"<b>AVERÍA \" + (i + 1) + \"</b><br>\";\n    html += \"<b>Diagnóstico:</b> \" + r.diagnostico + \"<br>\";\n    html += \"<b>Gravedad:</b> \" + r.prioridad + \"<br>\";\n    html += \"<b>Recomendación:</b> \" + r.recomendacion + \"<br>\";\n\n    if (r.codigo) {\n        html += \"<b>Código DTC:</b> \" + r.codigo + \"<br>\";\n    }\n\n    html += \"</div>\";\n});\n\nhtml += \"</div>\";\n\nmsg.payload = html;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 300,
+        "wires": [
+            [
+                "a45ec20f2b9e021a",
+                "5bfd760c04a491af"
+            ]
+        ]
+    },
+    {
+        "id": "c9da243d359a84e7",
+        "type": "debug",
+        "z": "350e37389b9f29b3",
+        "name": "entrada",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 480,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "a45ec20f2b9e021a",
+        "type": "debug",
+        "z": "350e37389b9f29b3",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 860,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "4d01f2abf0c20b88",
+        "type": "function",
+        "z": "350e37389b9f29b3",
+        "name": "function fecha",
+        "func": "msg.payload.fecha = new Date().toISOString();\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 120,
+        "wires": [
+            [
+                "4d61bc2fa5d12ed8"
+            ]
+        ]
+    },
+    {
+        "id": "5bfd760c04a491af",
+        "type": "ui-template",
+        "z": "350e37389b9f29b3",
+        "group": "466169734028a1d3",
+        "page": "",
+        "ui": "",
+        "name": "Resultado Fijo",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n    <div class=\"resultado-wrap\" v-if=\"msg?.payload\">\n        <div v-html=\"msg.payload\"></div>\n    </div>\n\n    <div class=\"resultado-vacio\" v-else>\n        Esperando resultado del diagnóstico...\n    </div>\n</template>\n\n<style>\n    .resultado-wrap {\n        padding: 8px;\n        line-height: 1.5;\n    }\n\n    .resultado-vacio {\n        padding: 8px;\n        color: #666;\n        font-style: italic;\n    }\n\n    .resultado-wrap h3 {\n        margin: 0 0 10px 0;\n    }\n\n    .resultado-wrap div {\n        word-break: break-word;\n    }\n</style>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 840,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4b579ddf2277e78b",
+        "type": "ui-button",
+        "z": "350e37389b9f29b3",
+        "group": "8fa4ca9f821dda60",
+        "name": "",
+        "label": "Limpiar Diagnóstico",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "Esperando resultado del diagnóstico...",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 110,
+        "y": 480,
+        "wires": [
+            [
+                "5bfd760c04a491af"
+            ]
+        ]
+    },
+    {
+        "id": "d764dddb77409b05",
+        "type": "ui-template",
+        "z": "350e37389b9f29b3",
+        "group": "",
+        "page": "",
+        "ui": "ui_base",
+        "name": "Fijar Estilo Textarea",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "/* Fuerza la altura de línea y el espaciado en los cuadros de texto */\n.v-textarea textarea,\n.v-field__input fieldset,\n.v-field__input {\n    line-height: 1.5rem !important;\n    padding-top: 10px !important;\n    padding-bottom: 10px !important;\n}\n\n/* Evita que el contenedor colapse el texto por abajo */\n.v-input__control {\n    min-height: 56px !important;\n}",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "site:style",
+        "className": "",
+        "x": 850,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8fa4ca9f821dda60",
+        "type": "ui-group",
+        "name": "Panel de Control",
+        "page": "5d6c08e2b4595cfc",
+        "width": 6,
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "b7c45fcde4df52a0",
+        "type": "mongodb",
+        "hostname": "mongodb",
+        "topology": "direct",
+        "connectOptions": "",
+        "port": 27017,
+        "db": "tfg_database",
+        "name": "Conexion_TFG"
+    },
+    {
+        "id": "ui_base",
+        "type": "ui-base",
+        "name": "TFG Dashboard",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-control",
+            "ui-notification"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 5,
+        "showDisconnectNotification": true,
+        "allowInstall": true
+    },
+    {
+        "id": "466169734028a1d3",
+        "type": "ui-group",
+        "name": "Resultado Diagnóstico",
+        "page": "5d6c08e2b4595cfc",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "5d6c08e2b4595cfc",
+        "type": "ui-page",
+        "name": "Diagnóstico",
+        "ui": "ui_base",
+        "path": "/diagnostico",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "4d923f4d1c40edd7",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "4d923f4d1c40edd7",
+        "type": "ui-theme",
+        "name": "Tema TFG",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "03326c74389e3da9",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "@flowfuse/node-red-dashboard": "1.30.2",
+            "node-red-node-mongodb": "0.2.5"
+        }
+    }
+]

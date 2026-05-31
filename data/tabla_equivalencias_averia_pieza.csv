@@ -1,0 +1,33 @@
+averia_clave,pieza_asociada,descripcion_regla
+fallo egr,Válvula EGR,Relaciona averías del sistema EGR con la pieza principal de sustitución
+valvula egr,Válvula EGR,Alias de búsqueda simplificado
+fallo sonda lambda,Sonda lambda delantera,Asocia problemas de mezcla/emisiones con la sonda lambda principal
+sonda lambda,Sonda lambda delantera,Alias de búsqueda simplificado
+fallo catalizador,Catalizador,Asocia eficiencia baja del catalizador con sustitución del componente principal
+catalizador,Catalizador,Alias de búsqueda simplificado
+fallo bomba combustible,Bomba de combustible,Asocia problemas de alimentación con la bomba
+bomba combustible,Bomba de combustible,Alias de búsqueda simplificado
+fallo rele bomba combustible,Relé de bomba de combustible,Asocia fallo eléctrico de alimentación con el relé
+rele bomba combustible,Relé de bomba de combustible,Alias de búsqueda simplificado
+fallo maf,Sensor MAF,Asocia errores de medición de caudal con el sensor MAF
+sensor maf,Sensor MAF,Alias de búsqueda simplificado
+fallo map,Sensor MAP,Asocia errores de presión del colector con el sensor MAP
+sensor map,Sensor MAP,Alias de búsqueda simplificado
+fallo abs,Modulo ABS,Asocia fallo general del sistema ABS con el módulo
+sensor abs,Sensor ABS,Asocia fallos de lectura de rueda con el sensor ABS
+fallo radiador,Radiador,Asocia sobrecalentamiento con el radiador
+fallo termostato,Termostato,Asocia mala regulación térmica con el termostato
+fallo bomba agua,Bomba de agua,Asocia problemas de circulación de refrigerante con la bomba de agua
+fallo embrague,Kit de embrague,Asocia desgaste o patinamiento con el kit de embrague
+fallo volante bimasa,Volante bimasa,Asocia vibraciones o traqueteos con el volante bimasa
+fallo turbo,Turbocompresor,Asocia pérdida de potencia/silbidos con el turbo
+fallo alternador,Alternador,Asocia problemas de carga con el alternador
+fallo bateria,Batería,Asocia fallo de arranque o carga deficiente con batería
+fallo motor arranque,Motor de arranque,Asocia imposibilidad de arranque con el motor de arranque
+fallo frenos delanteros,Pastillas de freno delanteras,Asocia desgaste de frenado delantero con pastillas
+fallo discos delanteros,Disco de freno delantero,Asocia vibración/frenada irregular con discos delanteros
+fallo amortiguador delantero,Amortiguador delantero,Asocia rebotes o pérdida de estabilidad con amortiguador
+fallo filtro aire,Filtro de aire,Asocia mantenimiento o restricción de admisión con filtro de aire
+fallo filtro aceite,Filtro de aceite,Asocia mantenimiento de lubricación con filtro de aceite
+fallo bujia,Bujia,Asocia problemas de encendido con la bujia
+fallo inyector,Inyector,Asocia problemas de inyeccion con el inyector
